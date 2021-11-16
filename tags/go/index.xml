@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>go on 忆の風</title>
+    <link>https://shawncheung.com/tags/go/</link>
+    <description>Recent content in go on 忆の風</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>shawn</copyright>
+    <lastBuildDate>Fri, 22 Oct 2021 13:06:18 +0800</lastBuildDate><atom:link href="https://shawncheung.com/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golang | 算法题的输入输出</title>
+      <link>https://shawncheung.com/post/go-algio/</link>
+      <pubDate>Fri, 22 Oct 2021 13:06:18 +0800</pubDate>
+      
+      <guid>https://shawncheung.com/post/go-algio/</guid>
+      <description>「前言」  本篇分享介绍3个版本，层层递进 接下来以 Acwing796.子矩阵的和 为例  「题目」  题目：输入一个 $n$ 行 $m$ 列的整数矩阵，再输入 $q$ 个询问，每个询问包含四个整数 $x_1,y_1,x_2,y_2$，表示一个子矩阵的左上角坐标和右下角坐标。对于每个询问输出子矩阵中所有数的和。 输入：第一行包含三个整数 $n，m，q$。 接下来 $n$ 行，每行包含 $m$ 个整数，表示整数矩阵。 接下来 $q$ 行，每行包含四个整数 $x_1,y_1,x_2,y_2$，表示一组询问。
+输出：共 $q$ 行，每行输出一个询问的结果。   「Ver. 1」 Use&amp;amp;Result  fmt.Scan() 和 fmt.Print()系列 Res：TLE  Code   package main import ( &amp;#34;fmt&amp;#34; ) const N = 1010 func main() { var n, m, q int fmt.Scan(&amp;amp;n, &amp;amp;m, &amp;amp;q) a := make([][N]int, N) for i := 1; i &amp;lt;= n; i++ { for j := 1; j &amp;lt;= m; j++ { fmt.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pll on 忆の風</title>
+    <link>https://shawncheung.com/tags/pll/</link>
+    <description>Recent content in pll on 忆の風</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>shawn</copyright>
+    <lastBuildDate>Thu, 24 Jun 2021 19:50:57 +0800</lastBuildDate><atom:link href="https://shawncheung.com/tags/pll/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cube | PLL</title>
+      <link>https://shawncheung.com/post/cube-pll/</link>
+      <pubDate>Thu, 24 Jun 2021 19:50:57 +0800</pubDate>
+      
+      <guid>https://shawncheung.com/post/cube-pll/</guid>
+      <description>PLL  记录一下我所使用和即将使用的pll
+1. Alg    Name Case Alg PB     Ua  RU&amp;rsquo;RU(RURU&amp;rsquo;R&amp;rsquo;U&amp;rsquo;R&#39;2) 1.42s   Ub  L&amp;rsquo;UL&amp;rsquo;U&#39;(L&amp;rsquo;U&amp;rsquo;L&amp;rsquo;ULUL&#39;2) 1.28s   Aa  RUR&amp;rsquo;F&amp;rsquo;rUR&amp;rsquo;U&amp;rsquo;r&amp;rsquo;FR2U&amp;rsquo;R&#39; 1.27s   Ab  (L&amp;rsquo;U&amp;rsquo;LF)(r&amp;rsquo;U&amp;rsquo;LU)rF&amp;rsquo;L2&amp;rsquo;UL 2.03s   H  M&#39;2U&#39; M&#39;2U&#39;2 M&#39;2U&#39; M&#39;2 1.21s   Z  M&amp;rsquo;U&#39;(M2U&#39;)2 M&amp;rsquo;U2M2 1.78s               Na  (RF) (U&amp;rsquo;R&amp;rsquo;URU) F&amp;rsquo;R2&amp;rsquo;F&amp;rsquo;RURU&amp;rsquo;R&amp;rsquo;F 2.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on 忆の風</title>
+    <link>https://shawncheung.com/categories/blog/</link>
+    <description>Recent content in Blog on 忆の風</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>shawn</copyright>
+    <lastBuildDate>Tue, 04 May 2021 21:00:00 +0000</lastBuildDate><atom:link href="https://shawncheung.com/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog搭建的那点小事</title>
+      <link>https://shawncheung.com/post/blog-hugoanddiary/</link>
+      <pubDate>Tue, 04 May 2021 21:00:00 +0000</pubDate>
+      
+      <guid>https://shawncheung.com/post/blog-hugoanddiary/</guid>
+      <description>一、相识  原来是在Hexo平台，折腾Next主题,过了一段时间发现那并不是我想要的。
+首先,hexo有点慢这是实话，所以早换晚换肯定要换，那就搜搜看，结果便找到了Hugo,由Golang开发而成,速度很快。 Okay,平台有了，那还得有个主题不是，找啊找找啊找，发现了Even，用了一段时间，还是觉得不太美观，但已经相当美观，而且功能很全，已经接近了我想要的东西。 于是乎，便又在Github上翻，发现了目前的主题Diary,界面已经很棒，功能还有待补全。
+只得一声叹息，为什么我不会前端，why，也许最适合自己的是自己造一个。可惜不会，还不学，那有啥子办法呢？等时机成熟，等我学，便是一个新的主题的诞生。
+诶，这主题换了不少，结果定睛一看,好家伙,博文几乎为0,这&amp;hellip;🤣
+二、安装  Hugo: 官方文档zh版 照链接安装即可。哈？那这篇文章存在的意义在哪里 Diary: 说明文档  三、简易配置 前期工作  把主题exampleSite文件夹里的config.toml copy到博客根目录 把archetypes里的default.md放到博客那个文件夹 照说明文档把config.toml改一下  About页  config.toml添加以下内容 [[menu.main]] url = &amp;#34;/about/index.html&amp;#34; name = &amp;#34;關於&amp;#34; weight = 4 # 位置摆放  在content文件夹下创建about.md即可  插入图片   先需要修改config.toml,在[markup]下添加以下内容(记得缩进)
+[markup.goldmark] [markup.goldmark.renderer] hardWraps = false unsafe = true xHTML = true   使用的&amp;lt;img src=&amp;quot;&amp;quot; width= /&amp;gt;配合&amp;lt;center&amp;gt;;图片文件夹放置在static下。
+为什么不使用shortcode,主要是没搞懂;
+为什么不使用markdown语法，因为没法定义大小
+  博客中间宽度  位置：diary/assets/scss/journal.scss 内容：本来两边都是25%，调整两边的百分比就可以了 $side-container-width: 21%; $extra-container-width: 21%;   主题有待完善  tags页面  目前情况：一个标签占一行。很浪费，不美观，翻阅点击很费劲。 希望改变：多个标签一行,如果有多篇文章提了这个标签，就让此标签变大加重。   图片浏览  目前情况：点击不了，没法放大，只图片浏览。 希望改变：加入可以点击浏览所有图片的功能。   代码  copy按钮，折叠功能   目录  没有一级标题不显示(强制展开，就不能折叠) 不会 自动折叠/展开 子标题    四、总结  总之，至少主题风格很对口味，可惜一些需求没有实现,但任何东西本身就没有完美之说,不是吗。</description>
+    </item>
+    
+  </channel>
+</rss>

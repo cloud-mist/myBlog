@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html><head>
+<title>Blog搭建的那点小事</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="一之diary篇">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<meta property="og:title" content="Blog搭建的那点小事" />
+<meta property="og:description" content="一之diary篇" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://shawncheung.com/post/blog-hugoanddiary/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-05-04T21:00:00+00:00" />
+<meta property="article:modified_time" content="2021-05-04T21:00:00+00:00" /><meta property="og:site_name" content="My Blog" />
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Blog搭建的那点小事"/>
+<meta name="twitter:description" content="一之diary篇"/>
+
+
+
+
+
+
+
+<script src="/vendor/js/jquery.min.js" ></script>
+<script src="/vendor/js/popper.min.js" ></script>
+<script src="/vendor/js/bootstrap.min.js" ></script>
+<script src="/vendor/js/smooth-scroll.polyfills.min.js" ></script>
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+<script src="/vendor/js/vue.min.js" ></script>
+
+
+  
+
+
+
+
+<link rel="icon" href="https://iconfont.alicdn.com/t/f3d44ccc-57d7-471b-ad90-d90c8a3b4f62.png">
+
+
+
+<link rel="stylesheet" href="https://shawncheung.com/scss/journal.min.61a5bc3b60303840cb4017f9db1194d194c10cdf6cf4b43e810b52dd44b23ef5.css" integrity="sha256-YaW8O2AwOEDLQBf52xGU0ZTBDN9s9LQ&#43;gQtS3USyPvU=" media="screen">
+
+
+
+<link rel="stylesheet" href="https://shawncheung.com/scss/dark-mode.min.446a7cc8d5dce64582044fd49ad1dc3b0d76307cd03cfa2b94ec967e1cf84d40.css" integrity="sha256-RGp8yNXc5kWCBE/UmtHcOw12MHzQPPorlOyWfhz4TUA=" media="screen">
+
+
+<script src="/js/loadCSS.js"></script>
+<script>
+  loadCSS("https://fonts.googleapis.com/css?family=Lora|Montserrat|Fira+Mono|Noto+Serif+SC|Material+Icons");
+</script>
+
+
+
+
+  
+    <script src="/js/toc.js"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    	<div id="app"><div ref="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://shawncheung.com">
+    
+        <div class="nav-title">
+            忆の風
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/post">
+                归檔
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/categories">
+                分類
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                標簽
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/about/index.html">
+                關於
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal</a> <br>
+<br>
+
+&copy;
+	
+	shawn
+	
+
+    </div>
+    
+</div><div ref="extraContainer" class="extra-container">
+    
+    
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- 目錄 -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e4%b8%80%e7%9b%b8%e8%af%86" onclick="onNavClick(`#一相识-nav`)" id="一相识-nav">
+									一、相识
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e4%ba%8c%e5%ae%89%e8%a3%85" onclick="onNavClick(`#二安装-nav`)" id="二安装-nav">
+									二、安装
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e4%b8%89%e7%ae%80%e6%98%93%e9%85%8d%e7%bd%ae" onclick="onNavClick(`#三简易配置-nav`)" id="三简易配置-nav">
+									三、简易配置
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e5%89%8d%e6%9c%9f%e5%b7%a5%e4%bd%9c" onclick="onNavClick(`#前期工作-nav`)" id="前期工作-nav">
+									前期工作
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#about%e9%a1%b5" onclick="onNavClick(`#about页-nav`)" id="about页-nav">
+									About页
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e6%8f%92%e5%85%a5%e5%9b%be%e7%89%87" onclick="onNavClick(`#插入图片-nav`)" id="插入图片-nav">
+									插入图片
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%8d%9a%e5%ae%a2%e4%b8%ad%e9%97%b4%e5%ae%bd%e5%ba%a6" onclick="onNavClick(`#博客中间宽度-nav`)" id="博客中间宽度-nav">
+									博客中间宽度
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e4%b8%bb%e9%a2%98%e6%9c%89%e5%be%85%e5%ae%8c%e5%96%84" onclick="onNavClick(`#主题有待完善-nav`)" id="主题有待完善-nav">
+									主题有待完善
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#%e5%9b%9b%e6%80%bb%e7%bb%93" onclick="onNavClick(`#四总结-nav`)" id="四总结-nav">
+									四、总结
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a class="pagination-action" v-on:click="toggleDarkMode">
+            <i class="material-icons pagination-action-icon" v-if="isDarkMode">
+                brightness_4
+            </i>
+            <i class="material-icons pagination-action-icon" v-else="isDarkMode">
+                brightness_7
+            </i>
+        </a>
+        
+        
+    </div>
+</div>
+<div class="single-column-drawer-container" ref="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/post">
+                    归檔
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/categories">
+                    分類
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    標簽
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/about/index.html">
+                    關於
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- 目錄 -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e4%b8%80%e7%9b%b8%e8%af%86" onclick="onNavClick(`#一相识-nav`)" id="一相识-nav">
+									一、相识
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e4%ba%8c%e5%ae%89%e8%a3%85" onclick="onNavClick(`#二安装-nav`)" id="二安装-nav">
+									二、安装
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e4%b8%89%e7%ae%80%e6%98%93%e9%85%8d%e7%bd%ae" onclick="onNavClick(`#三简易配置-nav`)" id="三简易配置-nav">
+									三、简易配置
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e5%89%8d%e6%9c%9f%e5%b7%a5%e4%bd%9c" onclick="onNavClick(`#前期工作-nav`)" id="前期工作-nav">
+									前期工作
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#about%e9%a1%b5" onclick="onNavClick(`#about页-nav`)" id="about页-nav">
+									About页
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e6%8f%92%e5%85%a5%e5%9b%be%e7%89%87" onclick="onNavClick(`#插入图片-nav`)" id="插入图片-nav">
+									插入图片
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%8d%9a%e5%ae%a2%e4%b8%ad%e9%97%b4%e5%ae%bd%e5%ba%a6" onclick="onNavClick(`#博客中间宽度-nav`)" id="博客中间宽度-nav">
+									博客中间宽度
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e4%b8%bb%e9%a2%98%e6%9c%89%e5%be%85%e5%ae%8c%e5%96%84" onclick="onNavClick(`#主题有待完善-nav`)" id="主题有待完善-nav">
+									主题有待完善
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#%e5%9b%9b%e6%80%bb%e7%bb%93" onclick="onNavClick(`#四总结-nav`)" id="四总结-nav">
+									四、总结
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav ref="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div ref="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a ref="navTitle" class="navbar-brand" href="https://shawncheung.com">
+            忆の風
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" v-on:click="toggleDarkMode">
+            <i class="material-icons" v-if="isDarkMode">
+                brightness_4
+            </i>
+            <i class="material-icons" v-else="isDarkMode">
+                brightness_7
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" ref="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://shawncheung.com">
+        <div class="single-column-header-title">忆の風</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+<div ref="streamContainer" class="stream-container">
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    Blog搭建的那点小事
+                    
+                    <div class="post-subtitle">
+                        一之diary篇
+                    </div>
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2021-05-04 21:00
+                        </time>
+                        
+
+                        
+                            <i class="material-icons" style="">folder</i>
+                                <a href="/categories/blog">Blog</a>
+                                &nbsp;
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/theme">theme</a>
+                                &nbsp;
+                            
+                                <a href="/tags/hugo">hugo</a>
+                                &nbsp;
+                            
+                                <a href="/tags/blog">blog</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <h2 id="一相识">一、相识</h2>
+<p>  原来是在<code>Hexo</code>平台，折腾<code>Next主题</code>,过了一段时间发现那并不是我想要的。<br />
+  首先,hexo有点慢这是实话，所以早换晚换肯定要换，那就搜搜看，结果便找到了<code>Hugo</code>,由Golang开发而成,速度很快。
+Okay,平台有了，那还得有个主题不是，找啊找找啊找，发现了<code>Even</code>，用了一段时间，还是觉得不太美观，但已经相当美观，而且功能很全，已经接近了我想要的东西。
+于是乎，便又在Github上翻，发现了目前的主题<code>Diary</code>,界面已经很棒，功能还有待补全。<br />
+  只得一声叹息，为什么我不会前端，why，也许最适合自己的是自己造一个。可惜不会，还不学，那有啥子办法呢？等时机成熟，等我学，便是一个新的主题的诞生。<br />
+  诶，这主题换了不少，结果定睛一看,好家伙,博文几乎为0,这&hellip;🤣</p>
+<h2 id="二安装">二、安装</h2>
+<ul>
+<li>Hugo: <a href="https://www.gohugo.org/">官方文档zh版</a>
+照链接安装即可。哈？那这篇文章存在的意义在哪里</li>
+<li>Diary: <a href="https://github.com/AmazingRise/hugo-theme-diary">说明文档</a></li>
+</ul>
+<h2 id="三简易配置">三、简易配置</h2>
+<h3 id="前期工作">前期工作</h3>
+<ol>
+<li>把主题exampleSite文件夹里的<code>config.toml</code> copy到<code>博客根目录</code></li>
+<li>把<code>archetypes</code>里的<code>default.md</code>放到博客那个文件夹</li>
+<li>照说明文档把config.toml改一下</li>
+</ol>
+<h3 id="about页">About页</h3>
+<ul>
+<li><code>config.toml</code>添加以下内容
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[[menu.main]]
+url = <span style="color:#f1fa8c">&#34;/about/index.html&#34;</span>
+name = <span style="color:#f1fa8c">&#34;關於&#34;</span> 
+weight = <span style="color:#bd93f9">4</span>   <span style="color:#6272a4"># 位置摆放</span>
+</code></pre></div></li>
+<li>在<code>content</code>文件夹下创建<code>about.md</code>即可</li>
+</ul>
+<h3 id="插入图片">插入图片</h3>
+<ul>
+<li>
+<p>先需要修改<code>config.toml</code>,在<code>[markup]</code>下添加以下内容(记得缩进)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[markup.goldmark]
+  [markup.goldmark.renderer]
+    hardWraps = <span style="color:#ff79c6">false</span>
+    unsafe = <span style="color:#ff79c6">true</span>
+    xHTML = <span style="color:#ff79c6">true</span>
+</code></pre></div></li>
+<li>
+<p>使用的<code>&lt;img src=&quot;&quot; width= /&gt;</code>配合<code>&lt;center&gt;</code>;图片文件夹放置在<code>static</code>下。<br />
+为什么不使用<code>shortcode</code>,主要是没搞懂;<br />
+为什么不使用markdown语法，因为没法定义大小</p>
+</li>
+</ul>
+<h3 id="博客中间宽度">博客中间宽度</h3>
+<ul>
+<li>位置：<code>diary/assets/scss/journal.scss</code></li>
+<li>内容：本来两边都是25%，调整两边的百分比就可以了
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss"><span style="color:#8be9fd;font-style:italic">$side-container-width</span><span style="color:#ff79c6">:</span> <span style="color:#bd93f9">21</span><span style="color:#8be9fd">%</span>;
+<span style="color:#8be9fd;font-style:italic">$extra-container-width</span><span style="color:#ff79c6">:</span> <span style="color:#bd93f9">21</span><span style="color:#8be9fd">%</span>;
+</code></pre></div></li>
+</ul>
+<h3 id="主题有待完善">主题有待完善</h3>
+<ol>
+<li>tags页面
+<ul>
+<li>目前情况：一个标签占一行。很浪费，不美观，翻阅点击很费劲。</li>
+<li>希望改变：多个标签一行,如果有多篇文章提了这个标签，就让此标签变大加重。</li>
+</ul>
+</li>
+<li>图片浏览
+<ul>
+<li>目前情况：点击不了，没法放大，只图片浏览。</li>
+<li>希望改变：加入可以点击浏览所有图片的功能。</li>
+</ul>
+</li>
+<li>代码
+<ul>
+<li><code>copy</code>按钮，<code>折叠</code>功能</li>
+</ul>
+</li>
+<li>目录
+<ul>
+<li>没有一级标题不显示(强制展开，就不能折叠)</li>
+<li>不会 自动折叠/展开 子标题</li>
+</ul>
+</li>
+</ol>
+<h2 id="四总结">四、总结</h2>
+<p>  总之，至少主题风格很对口味，可惜一些需求没有实现,但任何东西本身就没有完美之说,不是吗。<br />
+  See you next time.</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">上次修改於 2021-05-04</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="https://shawncheung.com/post/cube-pll/">
+			下回<br>Cube | PLL
+                </a>
+                
+                
+                
+                <a class="older-posts" href="https://shawncheung.com/post/ob-kindle/">
+			上回<br>2021年的第一次开箱-kindle
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+                <p style="opacity: 0.6" align="center">
+                    <small>此篇文章的評論功能已經停用。</small>
+                </p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+            </div><div id="single-column-footer">
+Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal</a> <br>
+<br>
+
+&copy;
+	
+	shawn
+	
+</div>
+            </div>
+    <script>
+let app;
+
+app = new Vue({
+    el: '#app',
+    data: {
+        scrollY: 0,
+        navOpacity: 0,
+        isDrawerOpen: false,
+        mounted: false,
+        isDarkMode: false
+    },
+    methods: {
+            sgn(t, x) {
+                let k = 1. / (1. - 2 * t);
+                if (x <= t) return 0;
+                else if (x >= 1 - t) return 1;
+                else {
+                    return k * (x - t);
+                }
+            },
+            handleScroll() {
+                this.scrollY = window.scrollY;
+                this.navOpacity = this.sgn(.0, Math.min(1, Math.max(0, window.scrollY / (this.pageHeadHeight() - this.navBarHeight() * 0.8))));
+                const {navBar, navBackground, navTitle, extraContainer, streamContainer} = this.$refs;
+
+                if (this.navOpacity >= 1) {
+                    navBackground.style.opacity = 1;
+                    navTitle.style.opacity = 1;
+                } else {
+                    navBackground.style.opacity = 0;
+                    navTitle.style.opacity = 0;
+                }
+            },
+            handleResize() {
+                const {navBar, navBackground, navTitle, extraContainer, streamContainer} = this.$refs;
+                extraContainer.style.left = (streamContainer.offsetWidth - extraContainer.offsetWidth) + 'px';
+            },
+            navBarHeight() {
+                return this.$refs.navBar.offsetHeight;
+            },
+            pageHeadHeight() {
+                return this.$refs.pageHead.offsetHeight;
+            },
+            toggleDrawer() {
+                this.isDrawerOpen = !this.isDrawerOpen;
+                document.getElementsByTagName('html')[0].style.overflow = this.isDrawerOpen ? 'hidden' : 'unset';
+            },
+            closeDrawer() {
+                this.isDrawerOpen = false;
+                document.getElementsByTagName('html')[0].style.overflow = this.isDrawerOpen ? 'hidden' : 'unset';
+            },
+            toggleDarkMode() {
+                this.isDarkMode = !this.isDarkMode;
+                if (this.isDarkMode==true){
+                    document.cookie = "night=1;path=/";
+                    document.body.classList.add("night");
+                } else {
+                    document.cookie = "night=0;path=/";
+                    document.body.classList.remove("night");
+                }
+            }
+    },
+    created() {
+        window.addEventListener('scroll', this.handleScroll);
+        window.addEventListener('resize', this.handleResize);
+        window._nonDesktop = function () {
+            let check = false;
+            (function (a) {
+                if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))) check = true;
+            })(navigator.userAgent || navigator.vendor || window.opera);
+            return check;
+        };
+        
+        var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+        if (night==""){
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                
+            }
+        }else{
+            
+            if (night=="1") {
+                this.toggleDarkMode();
+            }
+        }
+    },
+    mounted() {
+        this.handleScroll();
+        this.handleResize();
+        this.mounted = true;
+
+        
+        
+    },
+    destroyed() {
+        window.removeEventListener('scroll', this.handleScroll);
+        window.removeEventListener('resize', this.handleResize);
+    }
+});
+</script>
+
+<script src="/js/journal.js"></script>
+
+    </body>
+</html>
