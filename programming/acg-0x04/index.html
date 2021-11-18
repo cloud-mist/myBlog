@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
+    <meta charset="UTF-8" />
+
+    <meta name="generator" content="Hugo 0.89.3" /><meta name="theme-color" content="#fff" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <title>Acg | 0x04 | 忆の風</title>
+
+    <link rel="stylesheet" href="/css/meme.min.42528a97c8165c18113dd3b80af3f932375d61cfb04a66c1535c64b228f1b295.css"/>
+
+    
+    
+        <script src="/js/meme.min.4c8facfc8134c52bd7bf6bbfa3a7e68b06b47ae04968222e28e7831f5b1a7592.js"></script>
+
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" media="print" onload="this.media='all'" />
+        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" /></noscript>
+
+    <meta name="author" content="忆の風" /><meta name="description" content="二分总结" />
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2a6df4" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="忆の風" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="忆の風" />
+    <meta name="msapplication-starturl" content="../../" />
+    <meta name="msapplication-TileColor" content="#fff" />
+    <meta name="msapplication-TileImage" content="../../icons/mstile-150x150.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    
+    
+
+    
+    <link rel="canonical" href="https://shawncheung.com/programming/acg-0x04/" />
+    
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "datePublished": "2021-07-22T14:54:11+08:00",
+        "dateModified": "2021-11-18T21:02:52+08:00",
+        "url": "https://shawncheung.com/programming/acg-0x04/",
+        "headline": "Acg | 0x04",
+        "description": "二分总结",
+        "inLanguage" : "zh-CN",
+        "articleSection": "programming",
+        "wordCount":  986 ,
+        "image": "https://shawncheung.com/icons/apple-touch-icon.png",
+        "author": {
+            "@type": "Person",
+            "description": "El Psy Congroo.",
+            "email": "i@mail.shawncheung.com",
+            "image": "https://shawncheung.com/images/avatar.jpg",
+            "url": "https://shawncheung.com/",
+            "name": "忆の風"
+        },
+        "license": "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)",
+        "publisher": {
+            "@type": "Organization",
+            "name": "忆の風",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://shawncheung.com/icons/apple-touch-icon.png"
+            },
+            "url": "https://shawncheung.com/"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebSite",
+            "@id": "https://shawncheung.com/"
+        }
+    }
+</script>
+
+    
+
+<meta name="twitter:card" content="summary" />
+
+
+    
+
+
+
+<meta property="og:title" content="Acg | 0x04" />
+<meta property="og:description" content="二分总结" />
+<meta property="og:url" content="https://shawncheung.com/programming/acg-0x04/" />
+<meta property="og:site_name" content="忆の風" />
+<meta property="og:locale" content="zh" /><meta property="og:image" content="https://shawncheung.com/icons/apple-touch-icon.png" />
+    <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2021-07-22T14:54:11&#43;08:00" />
+    <meta property="article:modified_time" content="2021-11-18T21:02:52&#43;08:00" />
+    
+    <meta property="article:section" content="programming" />
+
+
+
+    
+    
+
+    
+</head>
+
+    <body>
+        <div class="container">
+            
+    <header class="header">
+        
+            <div class="header-wrapper">
+                <div class="header-inner single">
+                    
+    <div class="site-brand">
+        
+            <a href="/" class="brand">忆の風</a>
+        
+    </div>
+
+                    <nav class="nav">
+    <ul class="menu" id="menu">
+        
+            
+        
+        
+        
+        
+            
+                <li class="menu-item"><a href="/programming/"><span class="menu-item-name">一书房</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/life/"><span class="menu-item-name">五味馆</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/about/"><span class="menu-item-name">关于</span></a>
+                </li>
+            
+        
+            
+                
+                    
+                    
+                        <li class="menu-item">
+                            <a id="theme-switcher" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon theme-icon-light"><path d="M193.2 104.5l48.8-97.5a18 18 0 0128 0l48.8 97.5 103.4 -34.5a18 18 0 0119.8 19.8l-34.5 103.4l97.5 48.8a18 18 0 010 28l-97.5 48.8 34.5 103.4a18 18 0 01-19.8 19.8l-103.4-34.5-48.8 97.5a18 18 0 01-28 0l-48.8-97.5l-103.4 34.5a18 18 0 01-19.8-19.8l34.5-103.4-97.5-48.8a18 18 0 010-28l97.5-48.8-34.5-103.4a18 18 0 0119.8-19.8zM256 128a128 128 0 10.01 0M256 160a96 96 0 10.01 0"/></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon theme-icon-dark"><path d="M27 412a256 256 0 10154-407a11.5 11.5 0 00-5 20a201.5 201.5 0 01-134 374a11.5 11.5 0 00-15 13"/></svg></a>
+                        </li>
+                    
+                
+            
+        
+            
+                
+            
+        
+    </ul>
+</nav>
+
+                    
+                </div>
+            </div>
+            
+    <input type="checkbox" id="nav-toggle" aria-hidden="true" />
+    <label for="nav-toggle" class="nav-toggle"></label>
+    <label for="nav-toggle" class="nav-curtain"></label>
+
+
+        
+    </header>
+
+
+
+
+            
+            
+    <main class="main single" id="main">
+    <div class="main-inner">
+
+        
+
+        <article class="content post h-entry" data-align="justify" data-type="programming" data-toc-num="true">
+
+            <h1 class="post-title p-name">Acg | 0x04</h1>
+
+            
+
+            
+                <div class="post-description p-summary">二分总结</div>
+                
+            
+
+            
+
+            <div class="post-body e-content">
+                <h2 id="一整数二分"><a href="#一整数二分" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>一、整数二分</h2>
+<h3 id="explain"><a href="#explain" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Explain</h3>
+<ol>
+<li>将模板分为二种情况,循环以<code>l=r</code>结束</li>
+<li>看第一段，若$a[mid]&gt;=x$,因为是单增序列，推出mid后面的数会更大，所以缩小区间为左半段,又mid也可能是答案，因此<code>r=mid</code></li>
+<li>为什么采用右移运算，而不是除法。右移是向下取整，整除是向零取整，在值域包含负数的时候后者没法正常工作。</li>
+</ol>
+<h3 id="code"><a href="#code" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Code</h3>
+<ol>
+<li>
+<p>在单增序列a中查找$\geq{x}$中最小的那个</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="k">while</span> <span class="n">l</span><span class="o">&lt;</span><span class="n">r</span><span class="p">:</span>
+	<span class="n">mid</span><span class="o">=</span><span class="n">l</span><span class="o">+</span><span class="n">r</span><span class="o">&gt;&gt;</span><span class="mi">1</span>
+	<span class="k">if</span> <span class="n">a</span><span class="p">[</span><span class="n">mid</span><span class="p">]</span><span class="o">&gt;=</span><span class="n">x</span><span class="p">:</span>
+		<span class="n">r</span><span class="o">=</span><span class="n">mid</span>
+	<span class="k">else</span><span class="p">:</span>
+		<span class="n">l</span><span class="o">=</span><span class="n">mid</span><span class="o">+</span><span class="mi">1</span>
+</code></pre></td></tr></table></div>
+</div>
+</div></li>
+<li>
+<p>在a中找$\leq{x}$中最大的那个</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="k">while</span> <span class="n">l</span><span class="o">&lt;</span><span class="n">r</span><span class="p">:</span>
+	<span class="n">mid</span><span class="o">=</span><span class="n">l</span><span class="o">+</span><span class="n">r</span><span class="o">+</span><span class="mi">1</span><span class="o">&gt;&gt;</span><span class="mi">1</span>
+	<span class="k">if</span> <span class="n">a</span><span class="p">[</span><span class="n">mid</span><span class="p">]</span><span class="o">&lt;=</span><span class="n">x</span><span class="p">:</span>
+		<span class="n">l</span><span class="o">=</span><span class="n">mid</span>
+	<span class="k">else</span><span class="p">:</span>
+		<span class="n">r</span><span class="o">=</span><span class="n">mid</span><span class="o">-</span><span class="mi">1</span>
+</code></pre></td></tr></table></div>
+</div>
+</div></li>
+</ol>
+<h3 id="problems"><a href="#problems" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Problems</h3>
+<p><a href="https://www.acwing.com/problem/content/791/" target="_blank" rel="noopener">E1 数的范围</a></p>
+<ol>
+<li>topic</li>
+</ol>
+<ul>
+<li>给定一个按照升序排列的长度为 n 的整数数组,以及q个查询。对于每个查询，返回一个元素 k 的起始位置和终止位置（位置从 0 开始计数）。如果数组中不存在该元素，则返回 -1 -1.</li>
+</ul>
+<ol start="2">
+<li>analyse</li>
+</ol>
+<ul>
+<li>先用模板找起始位置，即最小的那个。</li>
+<li>如果<code>s[l]!=x</code>,说明没找到，输出<code>-1 -1</code>即可，</li>
+<li>否则，输出起始，再用模板找终止位置即可。</li>
+</ul>
+<ol start="3">
+<li>code
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">n</span><span class="p">,</span><span class="n">q</span><span class="o">=</span><span class="nb">map</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
+<span class="n">s</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()))</span>
+
+<span class="k">while</span> <span class="n">q</span><span class="p">:</span>
+	<span class="n">q</span><span class="o">-=</span><span class="mi">1</span>
+	<span class="n">x</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+
+	<span class="n">l</span><span class="p">,</span><span class="n">r</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span>
+	<span class="k">while</span> <span class="n">l</span><span class="o">&lt;</span><span class="n">r</span><span class="p">:</span>
+		<span class="n">mid</span> <span class="o">=</span><span class="n">l</span><span class="o">+</span><span class="n">r</span><span class="o">&gt;&gt;</span><span class="mi">1</span>
+		<span class="k">if</span> <span class="n">s</span><span class="p">[</span><span class="n">mid</span><span class="p">]</span><span class="o">&gt;=</span><span class="n">x</span><span class="p">:</span> <span class="n">r</span><span class="o">=</span><span class="n">mid</span>
+		<span class="k">else</span><span class="p">:</span> <span class="n">l</span><span class="o">=</span><span class="n">mid</span><span class="o">+</span><span class="mi">1</span>
+
+	<span class="k">if</span> <span class="n">s</span><span class="p">[</span><span class="n">l</span><span class="p">]</span><span class="o">!=</span><span class="n">x</span><span class="p">:</span>
+		<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;-1 -1&#39;</span><span class="p">)</span>
+	<span class="k">else</span><span class="p">:</span>
+		<span class="nb">print</span><span class="p">(</span><span class="n">l</span><span class="p">,</span><span class="n">end</span><span class="o">=</span><span class="s1">&#39; &#39;</span><span class="p">)</span>
+		<span class="n">l</span><span class="p">,</span><span class="n">r</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span>
+		<span class="k">while</span> <span class="n">l</span><span class="o">&lt;</span><span class="n">r</span><span class="p">:</span>
+			<span class="n">mid</span><span class="o">=</span><span class="n">l</span><span class="o">+</span><span class="n">r</span><span class="o">+</span><span class="mi">1</span><span class="o">&gt;&gt;</span><span class="mi">1</span>
+			<span class="k">if</span> <span class="n">s</span><span class="p">[</span><span class="n">mid</span><span class="p">]</span><span class="o">&lt;=</span><span class="n">x</span><span class="p">:</span> <span class="n">l</span><span class="o">=</span><span class="n">mid</span>
+			<span class="k">else</span><span class="p">:</span> <span class="n">r</span><span class="o">=</span><span class="n">mid</span><span class="o">-</span><span class="mi">1</span>
+		<span class="nb">print</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> 
+</code></pre></td></tr></table></div>
+</div>
+</div></li>
+</ol>
+<h2 id="二实数二分"><a href="#二实数二分" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>二、实数二分</h2>
+<h3 id="explain-1"><a href="#explain-1" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Explain</h3>
+<ul>
+<li>确定精度<code>eps</code>.如果需要保留k位小数，$eps=1e-(k+2)$</li>
+</ul>
+<h3 id="code-1"><a href="#code-1" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Code</h3>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="k">while</span> <span class="n">l</span><span class="o">+</span><span class="mf">1e-5</span><span class="o">&lt;</span><span class="n">r</span><span class="p">:</span>
+	<span class="n">mid</span><span class="o">=</span><span class="p">(</span><span class="n">l</span><span class="o">+</span><span class="n">r</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span>
+	<span class="k">if</span> <span class="n">calc</span><span class="p">(</span><span class="n">mid</span><span class="p">):</span>
+		<span class="n">r</span><span class="o">=</span><span class="n">mid</span>
+	<span class="k">else</span><span class="p">:</span>
+		<span class="n">l</span><span class="o">=</span><span class="n">mid</span>
+</code></pre></td></tr></table></div>
+</div>
+</div><h3 id="problems-1"><a href="#problems-1" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Problems</h3>
+<p><a href="https://www.acwing.com/problem/content/792/" target="_blank" rel="noopener">E1 数的三次方根</a></p>
+<ol>
+<li>题目<br>
+给定一个浮点数 n，求它的三次方根。</li>
+<li>code
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">x</span><span class="o">=</span><span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+<span class="n">N</span><span class="o">=</span><span class="mf">1e4</span>
+<span class="n">l</span><span class="p">,</span><span class="n">r</span><span class="o">=-</span><span class="n">N</span><span class="p">,</span><span class="n">N</span>
+<span class="k">while</span> <span class="n">l</span><span class="o">+</span><span class="mf">1e-8</span><span class="o">&lt;</span><span class="n">r</span><span class="p">:</span>
+	<span class="n">mid</span> <span class="o">=</span> <span class="p">(</span><span class="n">l</span><span class="o">+</span><span class="n">r</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span>
+	<span class="k">if</span> <span class="n">mid</span><span class="o">**</span><span class="mi">3</span><span class="o">&gt;=</span><span class="n">x</span><span class="p">:</span>
+		<span class="n">r</span><span class="o">=</span><span class="n">mid</span>
+	<span class="k">else</span><span class="p">:</span>
+		<span class="n">l</span><span class="o">=</span><span class="n">mid</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%.6f</span><span class="s2">&#34;</span> <span class="o">%</span> <span class="n">l</span><span class="p">)</span>
+</code></pre></td></tr></table></div>
+</div>
+</div></li>
+</ol>
+<h2 id="三二分答案转换成判定"><a href="#三二分答案转换成判定" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>三、二分答案转换成判定</h2>
+<h3 id="explain-2"><a href="#explain-2" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Explain</h3>
+<ul>
+<li>题目中出现类似于“<strong>最大值最小</strong>”的含义，这是答案具有单调性，可用二分转化成判定的特征之一</li>
+</ul>
+<h3 id="problems-2"><a href="#problems-2" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Problems</h3>
+<p><a href="https://www.acwing.com/problem/content/104/" target="_blank" rel="noopener">E1 最佳牛围栏</a></p>
+<ol>
+<li>思考</li>
+</ol>
+<ul>
+<li>转换题目：给定正整数数列A,求一个平均数<strong>最大</strong>且长度不小于L的连续子段.</li>
+<li>如果mid是答案，判定“是否存在一个长度不小于L的子段，平均数不小于二分的值”</li>
+<li>如果每个数都减去mid,那么就转化为，“是否存在一个长度不小于L的子段，子段和&gt;=0”</li>
+<li>如果存在，则更新<code>l=mid</code>,因为答案肯定在右边</li>
+</ul>
+<ol start="2">
+<li>code
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">n</span><span class="p">,</span><span class="n">f</span><span class="o">=</span><span class="nb">map</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
+<span class="n">cow</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="nb">sum</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="p">(</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+	<span class="n">cow</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">()))</span>
+
+<span class="k">def</span> <span class="nf">check</span><span class="p">(</span><span class="n">mid</span><span class="p">):</span>
+	<span class="c1"># 要逐次-mid</span>
+	<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+		<span class="nb">sum</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">+</span><span class="n">cow</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">-</span><span class="n">mid</span>
+
+	<span class="n">minv</span><span class="o">=</span><span class="mi">0</span> <span class="c1"># 因为sum[0]是0</span>
+	<span class="n">i</span><span class="p">,</span><span class="n">j</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">f</span>
+	<span class="k">while</span> <span class="n">j</span><span class="o">&lt;=</span><span class="n">n</span><span class="p">:</span>
+		<span class="n">minv</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">minv</span><span class="p">,</span> <span class="nb">sum</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="c1">#记录之前的最小值</span>
+		<span class="k">if</span> <span class="nb">sum</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="o">-</span><span class="n">minv</span><span class="o">&gt;=</span><span class="mi">0</span><span class="p">:</span> <span class="c1"># 说明有合法方案</span>
+			<span class="k">return</span> <span class="kc">True</span>
+		<span class="n">j</span><span class="o">+=</span><span class="mi">1</span><span class="p">;</span><span class="n">i</span><span class="o">+=</span><span class="mi">1</span>
+	<span class="k">return</span> <span class="kc">False</span>
+
+<span class="n">l</span><span class="p">,</span><span class="n">r</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="mi">2000</span>
+<span class="k">while</span> <span class="n">l</span><span class="o">+</span><span class="mf">1e-5</span><span class="o">&lt;</span><span class="n">r</span><span class="p">:</span>
+	<span class="n">mid</span><span class="o">=</span><span class="p">(</span><span class="n">l</span><span class="o">+</span><span class="n">r</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span>
+	<span class="k">if</span> <span class="n">check</span><span class="p">(</span><span class="n">mid</span><span class="p">):</span> <span class="c1"># 说明存在平均值不小于二分的值，所以要取右半边</span>
+		<span class="n">l</span><span class="o">=</span><span class="n">mid</span>
+	<span class="k">else</span><span class="p">:</span>
+		<span class="n">r</span><span class="o">=</span><span class="n">mid</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">r</span><span class="o">*</span><span class="mi">1000</span><span class="p">))</span>
+</code></pre></td></tr></table></div>
+</div>
+</div></li>
+</ol>
+<p><a href="https://www.acwing.com/problem/content/description/122/" target="_blank" rel="noopener">E2 防线</a></p>
+<ol>
+<li>思考</li>
+<li>code
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">T</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+<span class="k">while</span> <span class="n">T</span><span class="p">:</span>
+	<span class="n">T</span><span class="o">-=</span><span class="mi">1</span>
+
+	<span class="n">s</span><span class="o">=</span><span class="p">[]</span>
+	<span class="n">n</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+	<span class="n">l</span><span class="p">,</span><span class="n">r</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span>
+	<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+		<span class="n">ss</span><span class="p">,</span><span class="n">e</span><span class="p">,</span><span class="n">d</span><span class="o">=</span><span class="nb">map</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
+		<span class="n">s</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="n">ss</span><span class="p">,</span><span class="n">e</span><span class="p">,</span><span class="n">d</span><span class="p">])</span>
+		<span class="n">r</span><span class="o">=</span><span class="nb">max</span><span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="n">e</span><span class="p">)</span>
+
+	<span class="k">def</span> <span class="nf">getsum</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+		<span class="n">res</span><span class="o">=</span><span class="mi">0</span>
+		<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">s</span><span class="p">:</span>
+			<span class="k">if</span> <span class="n">i</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">&lt;=</span><span class="n">x</span><span class="p">:</span>
+				<span class="n">res</span> <span class="o">+=</span> <span class="p">(</span><span class="nb">min</span><span class="p">(</span><span class="n">i</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">x</span><span class="p">)</span> <span class="o">-</span> <span class="n">i</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">//</span> <span class="n">i</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span>
+		<span class="k">return</span> <span class="n">res</span>
+
+	<span class="k">while</span> <span class="n">l</span><span class="o">&lt;</span><span class="n">r</span><span class="p">:</span>
+		<span class="n">mid</span> <span class="o">=</span> <span class="n">l</span><span class="o">+</span><span class="n">r</span><span class="o">&gt;&gt;</span><span class="mi">1</span>
+		<span class="k">if</span> <span class="n">getsum</span><span class="p">(</span><span class="n">mid</span><span class="p">)</span><span class="o">%</span><span class="mi">2</span><span class="p">:</span> <span class="c1">#如果是奇数,答案肯定在左半边</span>
+			<span class="n">r</span><span class="o">=</span><span class="n">mid</span>
+		<span class="k">else</span><span class="p">:</span>
+			<span class="n">l</span><span class="o">=</span><span class="n">mid</span><span class="o">+</span><span class="mi">1</span>
+
+	<span class="nb">sum</span> <span class="o">=</span> <span class="n">getsum</span><span class="p">(</span><span class="n">r</span><span class="p">)</span><span class="o">-</span><span class="n">getsum</span><span class="p">(</span><span class="n">r</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+	<span class="k">if</span> <span class="nb">sum</span><span class="o">%</span><span class="mi">2</span><span class="p">:</span>
+		<span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="p">,</span><span class="nb">sum</span><span class="p">)</span>
+	<span class="k">else</span><span class="p">:</span>
+		<span class="nb">print</span><span class="p">(</span><span class="s2">&#34;There&#39;s no weakness.&#34;</span><span class="p">)</span>
+</code></pre></td></tr></table></div>
+</div>
+</div></li>
+</ol>
+
+            </div>
+
+            
+
+
+        </article>
+
+        
+
+        
+
+
+        
+
+
+        
+
+
+        
+
+
+        
+
+
+        
+    <footer class="minimal-footer">
+        
+            <div class="post-tag"><a href="/tags/%E7%AE%97%E6%B3%95/" rel="tag" class="post-tag-link">#算法</a> <a href="/tags/%E4%BA%8C%E5%88%86/" rel="tag" class="post-tag-link">#二分</a></div>
+        
+        
+            <div class="post-category">
+                <a href="/programming/" class="post-category-link active">programming</a> | <a href="/life/" class="post-category-link">life</a>
+            </div>
+        
+        
+    </footer>
+
+
+
+        
+
+
+        
+    
+        
+        
+    
+    
+    
+    
+        <ul class="post-nav">
+            
+                <li class="post-nav-prev">
+                    <a href="/programming/acg-0x03/" rel="prev">&lt; Acg | 0x03</a>
+                </li>
+            
+            
+                <li class="post-nav-next">
+                    <a href="/programming/cube-pll/" rel="next">Cube | PLL &gt;</a>
+                </li>
+            
+        </ul>
+    
+
+
+
+        
+
+
+    </div>
+</main>
+
+
+            
+    <div id="back-to-top" class="back-to-top">
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon arrow-up"><path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"/></svg></a>
+    </div>
+
+
+            
+
+        </div>
+        
+
+        
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css" integrity="sha256-gPJfuwTULrEAAcI3X4bALVU/2qBU+QY/TpoD3GO+Exw=" crossorigin="anonymous">
+<script>
+    if (typeof renderMathInElement === 'undefined') {
+        var getScript = (options) => {
+            var script = document.createElement('script');
+            script.defer = true;
+            script.crossOrigin = 'anonymous';
+            Object.keys(options).forEach((key) => {
+                script[key] = options[key];
+            });
+            document.body.appendChild(script);
+        };
+        getScript({
+            src: 'https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.js',
+            integrity: 'sha256-YTW9cMncW/ZQMhY69KaUxIa2cPTxV87Uh627Gf5ODUw=',
+            onload: () => {
+                getScript({
+                    src: 'https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/mhchem.min.js',
+                    integrity: 'sha256-yzSfYeVsWJ1x+2g8CYHsB/Mn7PcSp8122k5BM4T3Vxw=',
+                    onload: () => {
+                        getScript({
+                            src: 'https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js',
+                            integrity: 'sha256-fxJzNV6hpc8tgW8tF0zVobKa71eTCRGTgxFXt1ZpJNM=',
+                            onload: () => {
+                                renderKaTex();
+                            }
+                        });
+                    }
+                });
+            }
+        });
+    } else {
+        renderKaTex();
+    }
+    function renderKaTex() {
+        renderMathInElement(
+            document.body,
+            {
+                delimiters: [
+                    {left: "$$", right: "$$", display: true},
+                    {left: "\\[", right: "\\]", display: true},
+                    {left: "$", right: "$", display: false},
+                    {left: "\\(", right: "\\)", display: false}
+                ]
+            }
+        );
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/medium-zoom@latest/dist/medium-zoom.min.js"></script>
+
+<script>
+    let imgNodes = document.querySelectorAll('div.post-body img');
+    imgNodes = Array.from(imgNodes).filter(node => node.parentNode.tagName !== "A");
+
+    mediumZoom(imgNodes, {
+        background: 'hsla(var(--color-bg-h), var(--color-bg-s), var(--color-bg-l), 0.95)'
+    })
+</script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/instant.page@5.1.0/instantpage.min.js" type="module" defer></script>
+
+
+
+
+
+
+
+    </body>
+</html>
