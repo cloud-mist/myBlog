@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">忆の風</title>
     <subtitle type="html"></subtitle>
-    <updated>2021-11-18T21:05:26&#43;08:00</updated>
+    <updated>2021-11-18T22:59:21&#43;08:00</updated>
     <id>https://shawncheung.com/</id>
     <link rel="alternate" type="text/html" href="https://shawncheung.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://shawncheung.com/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Golang | 算法题的输入输出</title>
             <link rel="alternate" type="text/html" href="https://shawncheung.com/programming/go-algio/" />
             <id>https://shawncheung.com/programming/go-algio/</id>
-            <updated>2021-11-18T21:02:44&#43;08:00</updated>
+            <updated>2021-11-18T22:53:30&#43;08:00</updated>
             <published>2021-10-22T13:06:18&#43;08:00</published>
             <author>
                     <name>忆の風</name>
@@ -40,8 +40,7 @@
 &lt;li&gt;&lt;strong&gt;输入&lt;/strong&gt;：第一行包含三个整数 $n，m，q$。
 接下来 $n$ 行，每行包含 $m$ 个整数，表示整数矩阵。
 接下来 $q$ 行，每行包含四个整数 $x_1,y_1,x_2,y_2$，表示一组询问。&lt;br&gt;
-&lt;strong&gt;输出&lt;/strong&gt;：共 $q$ 行，每行输出一个询问的结果。
-&lt;/br&gt;&lt;/li&gt;
+&lt;strong&gt;输出&lt;/strong&gt;：共 $q$ 行，每行输出一个询问的结果。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ver-1&#34;&gt;「Ver. 1」&lt;/h2&gt;
 &lt;h3 id=&#34;emspuseresult&#34;&gt; Use&amp;amp;Result&lt;/h3&gt;
@@ -50,8 +49,6 @@
 &lt;li&gt;Res：&lt;code&gt;..TLE..&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;emspcode&#34;&gt; Code&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -112,18 +109,13 @@
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/br&gt;
-&lt;h2 id=&#34;ver-2&#34;&gt;「Ver. 2」&lt;/h2&gt;
+&lt;/div&gt;&lt;h2 id=&#34;ver-2&#34;&gt;「Ver. 2」&lt;/h2&gt;
 &lt;h3 id=&#34;emspuseresult-1&#34;&gt; Use&amp;amp;Result&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;bufio.NewWriter &amp;amp; bufio.NewReader&lt;/code&gt; 配套的 &lt;code&gt;Fscan&amp;amp;Fprint&lt;/code&gt; 系列&lt;/li&gt;
 &lt;li&gt;Res：&lt;code&gt;4296ms&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;emspcode-1&#34;&gt; Code&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -206,10 +198,7 @@
 &lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/br&gt;
-&lt;h2 id=&#34;ver-3&#34;&gt;「Ver. 3」&lt;/h2&gt;
+&lt;/div&gt;&lt;h2 id=&#34;ver-3&#34;&gt;「Ver. 3」&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;借鉴自atcoder的一位 &lt;a href=&#34;https://atcoder.jp/users/m1sterzer0&#34;&gt;大哥&lt;/a&gt; ，我删减修改形成&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -221,11 +210,9 @@
 &lt;h3 id=&#34;emsphow-to-use&#34;&gt; How to use&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;rn&lt;/code&gt; 3个函数，是读单个数字或字符串;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;rs&lt;/code&gt;函数，是返回一个slice。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rs&lt;/code&gt; 函数，是返回一个slice.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;emspcode-2&#34;&gt; Code&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -354,9 +341,7 @@
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
+&lt;/div&gt;</content>
             
             
             
