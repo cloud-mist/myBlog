@@ -3,8 +3,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">忆の風</title>
-    <subtitle type="html"></subtitle>
-    <updated>2021-11-19T10:07:39&#43;08:00</updated>
+    <subtitle type="html">Shawn&#39;s blog</subtitle>
+    <updated>2021-11-19T14:05:38&#43;08:00</updated>
     <id>https://shawncheung.com/</id>
     <link rel="alternate" type="text/html" href="https://shawncheung.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://shawncheung.com/atom.xml" />
