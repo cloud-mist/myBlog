@@ -3,7 +3,10 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.91.2" /><meta name="theme-color" content="#fff" />
+    <meta name="generator" content="Hugo 0.96.0" /><meta name="theme-color" content="#fff" />
+    <meta name="color-scheme" content="light dark">
+
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
@@ -14,18 +17,18 @@
 
     <title>Blog搭建的那点小事 | 忆の風</title>
 
-    <link rel="stylesheet" href="/css/meme.min.2be09548471c4253ffb93ed57ea8b498df00f76b3a914a79655aefa5717e7f44.css"/>
+    <link rel="stylesheet" href="/css/meme.min.699b3fa82320d6d79a17be7d031ad9817473034c0377953b13c52b37e7e7f6d3.css"/>
 
     
     
-        <script src="/js/meme.min.4c8facfc8134c52bd7bf6bbfa3a7e68b06b47ae04968222e28e7831f5b1a7592.js"></script>
+        <script src="/js/meme.min.13d7f1920c0a529e1181af34b8bdcc6770b5ca28dd7fb99568315a3049647cb4.js"></script>
 
     
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" media="print" onload="this.media='all'" />
-        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" /></noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;family=Fira&#43;Code&amp;family=Noto&#43;Sans&#43;SC&amp;family=ZCOOL&#43;XiaoWei&amp;family=M&#43;PLUS&#43;1p&amp;display=swap" media="print" onload="this.media='all'" />
+        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;family=Fira&#43;Code&amp;family=Noto&#43;Sans&#43;SC&amp;family=ZCOOL&#43;XiaoWei&amp;family=M&#43;PLUS&#43;1p&amp;display=swap" /></noscript>
 
     <meta name="author" content="忆の風" /><meta name="description" content="一之diary篇" />
 
@@ -238,11 +241,11 @@ Okay,平台有了，那还得有个主题不是，找啊找找啊找，发现了
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
-<span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/about/index.html&#34;</span>
-<span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;關於&#34;</span> 
-<span class="nx">weight</span> <span class="p">=</span> <span class="mi">4</span>   <span class="c"># 位置摆放</span>
-</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/about/index.html&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;關於&#34;</span> 
+</span></span><span class="line"><span class="cl"><span class="nx">weight</span> <span class="p">=</span> <span class="mi">4</span>   <span class="c"># 位置摆放</span>
+</span></span></code></pre></td></tr></table></div>
 </div>
 </div></li>
 <li>在<code>content</code>文件夹下创建<code>about.md</code>即可</li>
@@ -260,12 +263,12 @@ Okay,平台有了，那还得有个主题不是，找啊找找啊找，发现了
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">goldmark</span><span class="p">]</span>
-  <span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">goldmark</span><span class="p">.</span><span class="nx">renderer</span><span class="p">]</span>
-    <span class="nx">hardWraps</span> <span class="p">=</span> <span class="kc">false</span>
-    <span class="nx">unsafe</span> <span class="p">=</span> <span class="kc">true</span>
-    <span class="nx">xHTML</span> <span class="p">=</span> <span class="kc">true</span>
-</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">goldmark</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">goldmark</span><span class="p">.</span><span class="nx">renderer</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">hardWraps</span> <span class="p">=</span> <span class="kc">false</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">unsafe</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">xHTML</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span></code></pre></td></tr></table></div>
 </div>
 </div></li>
 <li>
@@ -284,9 +287,9 @@ Okay,平台有了，那还得有个主题不是，找啊找找啊找，发现了
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="nv">$side-container-width</span><span class="o">:</span> <span class="mi">21</span><span class="kt">%</span><span class="p">;</span>
-<span class="nv">$extra-container-width</span><span class="o">:</span> <span class="mi">21</span><span class="kt">%</span><span class="p">;</span>
-</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="nv">$side-container-width</span><span class="o">:</span> <span class="mi">21</span><span class="kt">%</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$extra-container-width</span><span class="o">:</span> <span class="mi">21</span><span class="kt">%</span><span class="p">;</span>
+</span></span></code></pre></td></tr></table></div>
 </div>
 </div></li>
 </ul>
