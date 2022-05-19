@@ -10,7 +10,7 @@
         <title>忆の風</title>
         <link>https://shawncheung.com/</link>
         <description>Shawn&#39;s blog</description>
-        <generator>Hugo 0.97.3 https://gohugo.io/</generator>
+        <generator>Hugo 0.98.0 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
         
@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Mon, 02 May 2022 13:59:38 &#43;0800</lastBuildDate>
+        <lastBuildDate>Thu, 19 May 2022 15:25:25 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://shawncheung.com/rss.xml" />
         
@@ -412,11 +412,8 @@ GetMin时，输出B的栈顶&lt;/li&gt;
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;  突然间，已经记不清7月之前我做了什么，我在哪里。噢，只不过是上了一些乱七八糟的课罢了，应付着那些无聊的考试。
-时间的流逝真的是飞快，仿佛我还停留在2008年的奥运之年，春晚定时收看，炮定时放。过年时还要跋山涉水，物质也并不富足相比此时，但当时是如此的快乐，也许那时只属于孩子的快乐吧。扯的有点远，那么今年做了什么东西呢。&lt;/p&gt;
-&lt;center&gt;
-&lt;iframe frameborder=&#34;no&#34; border=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; width=400 height=86 src=&#34;https://shawncheung.com//music.163.com/outchain/player?type=2&amp;id=447280427&amp;auto=1&amp;height=66&#34;&gt;&lt;/iframe&gt;
-&lt;/center&gt;
+                    <description>&lt;p&gt;  突然间，已经记不清 7 月之前我做了什么，我在哪里。噢，只不过是上了一些乱七八糟的课罢了，应付着那些无聊的考试。
+时间的流逝真的是飞快，仿佛我还停留在 2008 年的奥运之年，春晚定时收看，炮定时放。过年时还要跋山涉水，物质也并不富足相比此时，但当时是如此的快乐，也许那时只属于孩子的快乐吧。扯的有点远，那么今年做了什么东西呢。&lt;/p&gt;
 &lt;h3 id=&#34;娱乐方面&#34;&gt;娱乐方面&lt;/h3&gt;
 &lt;p&gt;  真的是看了不少很好的电影，还有很值得一玩的游戏。&lt;/p&gt;
 &lt;h4 id=&#34;films&#34;&gt;Films&lt;/h4&gt;
@@ -440,22 +437,14 @@ GetMin时，输出B的栈顶&lt;/li&gt;
 &lt;p&gt;扬名立万&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;anime&#34;&gt;Anime&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h4 id=&#34;games&#34;&gt;Games&lt;/h4&gt;
 &lt;p&gt;  银河恶魔城游戏，很有挑战性，但这三个可谓是第九艺术。美术和音乐真的很棒。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Ori与黑暗森林(15h)&lt;/li&gt;
+&lt;li&gt;Ori 与黑暗森林(15h)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;img src=&#34;https://shawncheung.com/images/End2021/ori-forest.jpg&#34; width=80% /&gt;
 &lt;ul&gt;
-&lt;li&gt;Ori与萤火意志(15h)&lt;/li&gt;
+&lt;li&gt;Ori 与萤火意志(15h)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;img src=&#34;https://shawncheung.com/images/End2021/ori-wisp.jpg&#34; width=80% /&gt;
 &lt;ul&gt;
@@ -463,7 +452,7 @@ GetMin时，输出B的栈顶&lt;/li&gt;
 &lt;/ul&gt;
 &lt;img src=&#34;https://shawncheung.com/images/End2021/hollowknight.jpeg&#34; width=80% /&gt;
 &lt;h4 id=&#34;music&#34;&gt;Music&lt;/h4&gt;
-&lt;p&gt;  还是听着梁博的，朴树的，李健的。多了YOASOBI. 指弹只看了MISKO的三首合作，真的很棒。吉他水平越来越差，也许这蒙尘的吉他再放就要放坏了吧。&lt;/p&gt;
+&lt;p&gt;  还是听着梁博的，朴树的，李健的。多了 YOASOBI. 指弹只看了 MISKO 的三首合作，真的很棒。吉他水平越来越差，也许这蒙尘的吉他再放就要放坏了吧。&lt;/p&gt;
 &lt;h3 id=&#34;一些产品&#34;&gt;一些产品&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -474,7 +463,7 @@ GetMin时，输出B的栈顶&lt;/li&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;学习方面&#34;&gt;学习方面&lt;/h3&gt;
-&lt;p&gt;  学了很久的算法，还是不见长进，ccf继续170,，真的很菜。要继续看密码学了，搞一下研究吧。还在学Haskell,欣赏一下Pure函数式语言的魅力。Golang还算学的还行吧，但是实际应用的小项目还没有实践过,明年2月左右就可以加入泛型，还挺激动的。还想使用一下&lt;code&gt;FreeBSD&lt;/code&gt;,体验个小半年试试。论文啊，还在催。&lt;/p&gt;
+&lt;p&gt;  学了很久的算法，还是不见长进，ccf 继续 170,，真的很菜。要继续看密码学了，搞一下研究吧。还在学 Haskell,欣赏一下 Pure 函数式语言的魅力。Golang 还算学的还行吧，但是实际应用的小项目还没有实践过,明年 2 月左右就可以加入泛型，还挺激动的。还想使用一下&lt;code&gt;FreeBSD&lt;/code&gt;,体验个小半年试试。论文啊，还在催。&lt;/p&gt;
 &lt;h3 id=&#34;总结&#34;&gt;总结&lt;/h3&gt;
 &lt;p&gt;  总之，学习方面不尽如人意，无论是基础的，还是科研方面的。加油吧。混沌着迷茫着，我坠入的世界的深渊，但不知该飘向何方。&lt;br&gt;
   哪有所谓的自由之处，哪里都是江湖。&lt;/p&gt;
