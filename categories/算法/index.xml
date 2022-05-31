@@ -1,0 +1,24 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>算法 - Category - 忆の風</title>
+        <link>https://shawncheung.com/categories/%E7%AE%97%E6%B3%95/</link>
+        <description>算法 - Category - 忆の風</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>i@mail.shawncheung.com (忆の風)</managingEditor>
+            <webMaster>i@mail.shawncheung.com (忆の風)</webMaster><lastBuildDate>Mon, 11 Apr 2022 21:08:43 &#43;0800</lastBuildDate><atom:link href="https://shawncheung.com/categories/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+    <title>Alg | 栈/队列/排序</title>
+    <link>https://shawncheung.com/programming/alg-struct-stkque/</link>
+    <pubDate>Mon, 11 Apr 2022 21:08:43 &#43;0800</pubDate>
+    <author>忆の風</author>
+    <guid>https://shawncheung.com/programming/alg-struct-stkque/</guid>
+    <description><![CDATA[栈 1. 包含Min函数的栈 问题 栈支持 $O(1)$ 入栈和出栈, 但不支持查询最小值 想法 直接：维护一个小顶堆 $O(logN)$ 启示：用一个变量维护最小值，但如果最小值出栈后就不]]></description>
+</item>
+<item>
+    <title>Alg | 质数</title>
+    <link>https://shawncheung.com/programming/alg-math-prime/</link>
+    <pubDate>Fri, 04 Mar 2022 17:03:53 &#43;0800</pubDate>
+    <author>忆の風</author>
+    <guid>https://shawncheung.com/programming/alg-math-prime/</guid>
+    <description><![CDATA[判定质数-&gt;试除法 备注 质数定义 质数是指在大于1的自然数中，除了1和它本身以外不再有其他因数的自然数。 朴素 -&gt;O(n) 小于2的数都不是质数 如果2-]]></description>
+</item>
+</channel>
+</rss>

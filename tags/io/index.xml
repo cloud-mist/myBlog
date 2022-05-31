@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>IO - Tag - 忆の風</title>
+        <link>https://shawncheung.com/tags/io/</link>
+        <description>IO - Tag - 忆の風</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>i@mail.shawncheung.com (忆の風)</managingEditor>
+            <webMaster>i@mail.shawncheung.com (忆の風)</webMaster><lastBuildDate>Fri, 22 Oct 2021 13:06:18 &#43;0800</lastBuildDate><atom:link href="https://shawncheung.com/tags/io/" rel="self" type="application/rss+xml" /><item>
+    <title>Golang | 算法题的输入输出</title>
+    <link>https://shawncheung.com/programming/go-alg-io/</link>
+    <pubDate>Fri, 22 Oct 2021 13:06:18 &#43;0800</pubDate>
+    <author>忆の風</author>
+    <guid>https://shawncheung.com/programming/go-alg-io/</guid>
+    <description><![CDATA[「前言」 本篇分享介绍 3 个版本，层层递进 接下来以 Acwing796.子矩阵的和 为例 「题目」 题目：输入一个 $n$ 行 $m$ 列的整数矩阵，再输入 $q$ 个询问，每]]></description>
+</item>
+</channel>
+</rss>

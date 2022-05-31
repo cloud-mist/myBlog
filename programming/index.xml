@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programmings on 忆の風</title>
+    <link>https://shawncheung.com/programming/</link>
+    <description>Recent content in Programmings on 忆の風</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>i@mail.shawncheung.com (忆の風)</managingEditor>
+    <webMaster>i@mail.shawncheung.com (忆の風)</webMaster>
+    <lastBuildDate>Mon, 11 Apr 2022 21:08:43 +0800</lastBuildDate><atom:link href="https://shawncheung.com/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emoji Support</title>
+      <link>https://shawncheung.com/programming/hello/</link>
+      <pubDate>Tue, 01 Oct 2019 17:55:28 +0800</pubDate>
+      <author>i@mail.shawncheung.com (忆の風)</author>
+      <guid>https://shawncheung.com/programming/hello/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Alg | 栈/队列/排序</title>
+      <link>https://shawncheung.com/programming/alg-struct-stkque/</link>
+      <pubDate>Mon, 11 Apr 2022 21:08:43 +0800</pubDate>
+      <author>i@mail.shawncheung.com (忆の風)</author>
+      <guid>https://shawncheung.com/programming/alg-struct-stkque/</guid>
+      <description>栈 1. 包含Min函数的栈 问题 栈支持 $O(1)$ 入栈和出栈, 但不支持查询最小值 想法 直接：维护一个小顶堆 $O(logN)$ 启示：用一个变量维护最小值，但如果最小值出栈后就不</description>
+    </item>
+    
+    <item>
+      <title>Alg | 质数</title>
+      <link>https://shawncheung.com/programming/alg-math-prime/</link>
+      <pubDate>Fri, 04 Mar 2022 17:03:53 +0800</pubDate>
+      <author>i@mail.shawncheung.com (忆の風)</author>
+      <guid>https://shawncheung.com/programming/alg-math-prime/</guid>
+      <description>判定质数-&amp;gt;试除法 备注 质数定义 质数是指在大于1的自然数中，除了1和它本身以外不再有其他因数的自然数。 朴素 -&amp;gt;O(n) 小于2的数都不是质数 如果2-</description>
+    </item>
+    
+    <item>
+      <title>Golang | 算法题的输入输出</title>
+      <link>https://shawncheung.com/programming/go-alg-io/</link>
+      <pubDate>Fri, 22 Oct 2021 13:06:18 +0800</pubDate>
+      <author>i@mail.shawncheung.com (忆の風)</author>
+      <guid>https://shawncheung.com/programming/go-alg-io/</guid>
+      <description>「前言」 本篇分享介绍 3 个版本，层层递进 接下来以 Acwing796.子矩阵的和 为例 「题目」 题目：输入一个 $n$ 行 $m$ 列的整数矩阵，再输入 $q$ 个询问，每</description>
+    </item>
+    
+    <item>
+      <title>Acg | 0x03</title>
+      <link>https://shawncheung.com/programming/acg-0x03/</link>
+      <pubDate>Fri, 23 Jul 2021 18:32:02 +0800</pubDate>
+      <author>i@mail.shawncheung.com (忆の風)</author>
+      <guid>https://shawncheung.com/programming/acg-0x03/</guid>
+      <description>hello 壹、介绍 前缀和：$O(1)$求某个区间或区域的和 差分 ：$O(1)$为某个连续区间或区域加一个固定的值 贰、模板 「一维前缀和」 Analyse 求一段区间的和</description>
+    </item>
+    
+    <item>
+      <title>Acg | 0x04</title>
+      <link>https://shawncheung.com/programming/acg-0x04/</link>
+      <pubDate>Thu, 22 Jul 2021 14:54:11 +0800</pubDate>
+      <author>i@mail.shawncheung.com (忆の風)</author>
+      <guid>https://shawncheung.com/programming/acg-0x04/</guid>
+      <description>一、整数二分 Explain 将模板分为二种情况,循环以l=r结束 看第一段，若$a[mid]&amp;gt;=x$,因为是单增序列，推出 mid 后面的数会更大，所以缩小区</description>
+    </item>
+    
+    <item>
+      <title>Blog搭建的那点小事</title>
+      <link>https://shawncheung.com/programming/blog-hugoanddiary/</link>
+      <pubDate>Tue, 04 May 2021 21:00:00 +0000</pubDate>
+      <author>i@mail.shawncheung.com (忆の風)</author>
+      <guid>https://shawncheung.com/programming/blog-hugoanddiary/</guid>
+      <description>一、相识 原来是在Hexo平台，折腾Next主题,过了一段时间发现那并不是我想要的。 首先,hexo有点慢这是实话，所以早换晚换肯定要换，那就搜</description>
+    </item>
+    
+  </channel>
+</rss>
