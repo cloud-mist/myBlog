@@ -2,8 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://shawncheung.com/programming/hello/</loc>
-    <lastmod>2019-10-01T17:55:28+08:00</lastmod>
+    <loc>https://shawncheung.com/programming/alg-struct-stkque/</loc>
+    <lastmod>2022-05-15T21:56:09+08:00</lastmod>
   </url><url>
     <loc>https://shawncheung.com/programming/</loc>
     <lastmod>2022-05-31T19:01:41+08:00</lastmod>
@@ -11,23 +11,14 @@
     <loc>https://shawncheung.com/tags/</loc>
     <lastmod>2022-05-31T19:01:41+08:00</lastmod>
   </url><url>
-    <loc>https://shawncheung.com/programming/test1/</loc>
-    <lastmod>2022-05-31T15:49:44+08:00</lastmod>
-  </url><url>
-    <loc>https://shawncheung.com/tags/tnestnse/</loc>
-    <lastmod>2022-05-31T15:49:44+08:00</lastmod>
-  </url><url>
-    <loc>https://shawncheung.com/</loc>
-    <lastmod>2022-05-31T19:01:41+08:00</lastmod>
-  </url><url>
-    <loc>https://shawncheung.com/programming/alg-struct-stkque/</loc>
-    <lastmod>2022-05-15T21:56:09+08:00</lastmod>
-  </url><url>
     <loc>https://shawncheung.com/tags/%E9%98%9F%E5%88%97/</loc>
     <lastmod>2022-05-15T21:56:09+08:00</lastmod>
   </url><url>
     <loc>https://shawncheung.com/tags/%E6%8E%92%E5%BA%8F/</loc>
     <lastmod>2022-05-15T21:56:09+08:00</lastmod>
+  </url><url>
+    <loc>https://shawncheung.com/</loc>
+    <lastmod>2022-05-31T19:01:41+08:00</lastmod>
   </url><url>
     <loc>https://shawncheung.com/tags/%E6%A0%88/</loc>
     <lastmod>2022-05-15T21:56:09+08:00</lastmod>
@@ -118,9 +109,6 @@
   </url><url>
     <loc>https://shawncheung.com/tags/paperwhite4/</loc>
     <lastmod>2022-05-31T18:23:16+08:00</lastmod>
-  </url><url>
-    <loc>https://shawncheung.com/tags/emoji/</loc>
-    <lastmod>2019-10-01T17:55:28+08:00</lastmod>
   </url><url>
     <loc>https://shawncheung.com/categories/</loc>
     <priority>0</priority>
