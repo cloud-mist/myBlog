@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>质数 on 忆の風</title>
+    <link>https://shawncheung.com/tags/%E8%B4%A8%E6%95%B0/</link>
+    <description>Recent content in 质数 on 忆の風</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>© Shawn</copyright>
+    <lastBuildDate>Fri, 04 Mar 2022 17:03:53 +0800</lastBuildDate><atom:link href="https://shawncheung.com/tags/%E8%B4%A8%E6%95%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alg | 质数</title>
+      <link>https://shawncheung.com/programming/alg-math-prime/</link>
+      <pubDate>Fri, 04 Mar 2022 17:03:53 +0800</pubDate>
+      
+      <guid>https://shawncheung.com/programming/alg-math-prime/</guid>
+      <description>判定质数-&amp;gt;试除法 备注 质数定义 质数是指在大于 1 的自然数中，除了 1 和它本身以外不再有其他因数的自然数。 朴素 -&amp;gt;O(n) 小于 2 的数都不是质数 如果 2-n 中</description>
+    </item>
+    
+  </channel>
+</rss>
