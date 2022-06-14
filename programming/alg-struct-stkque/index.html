@@ -2,10 +2,10 @@
 <html><head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Alg | 栈/队列/排序 - 忆の風</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="栈 1. 包含 Min 函数的栈 问题 栈支持 \((1)\) 入栈和出栈, 但不支持查询最小值 想法 直接：维护一个小顶堆 \(O(logN)\) 启示：用一个变量维护最小值，但如果最小值出栈后就不知道" />
+	<meta name="description" content="栈 包含 Min 函数的栈 问题 栈支持 \(O(1)\) 入栈和出栈, 但不支持查询最小值 想法 直接：维护一个小顶堆 \(O(logN)\) 启示：用一个变量维护最小值，但如果最小值出栈后就不知道了" />
 	<meta property="og:image" content=""/>
 	<meta property="og:title" content="Alg | 栈/队列/排序" />
-<meta property="og:description" content="栈 1. 包含 Min 函数的栈 问题 栈支持 \((1)\) 入栈和出栈, 但不支持查询最小值 想法 直接：维护一个小顶堆 \(O(logN)\) 启示：用一个变量维护最小值，但如果最小值出栈后就不知道" />
+<meta property="og:description" content="栈 包含 Min 函数的栈 问题 栈支持 \(O(1)\) 入栈和出栈, 但不支持查询最小值 想法 直接：维护一个小顶堆 \(O(logN)\) 启示：用一个变量维护最小值，但如果最小值出栈后就不知道了" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shawncheung.com/programming/alg-struct-stkque/" /><meta property="article:section" content="programming" />
 <meta property="article:published_time" content="2022-04-11T21:08:43+08:00" />
@@ -13,7 +13,7 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Alg | 栈/队列/排序"/>
-<meta name="twitter:description" content="栈 1. 包含 Min 函数的栈 问题 栈支持 \((1)\) 入栈和出栈, 但不支持查询最小值 想法 直接：维护一个小顶堆 \(O(logN)\) 启示：用一个变量维护最小值，但如果最小值出栈后就不知道"/>
+<meta name="twitter:description" content="栈 包含 Min 函数的栈 问题 栈支持 \(O(1)\) 入栈和出栈, 但不支持查询最小值 想法 直接：维护一个小顶堆 \(O(logN)\) 启示：用一个变量维护最小值，但如果最小值出栈后就不知道了"/>
 <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
@@ -33,13 +33,13 @@
 	</div>
 	<nav>
 		
-		<a href="/programming/">一书房</a>
+		<a href="/programming/">ProGraM</a>
 		
-		<a href="/life/">五味馆</a>
+		<a href="/life/">LiFe</a>
 		
 		<a href="/tags">Tags</a>
 		
-		<a href="/about/">关于</a>
+		<a href="/about/">About</a>
 		
 		| <a id="dark-mode-toggle" onclick="toggleTheme()" href=""></a>
 		<script src="https://shawncheung.com/js/themetoggle.js"></script>
@@ -81,17 +81,17 @@
 
 		<section class="body">
 			<h2 id="栈">栈</h2>
-<h3 id="1-包含-min-函数的栈">1. 包含 Min 函数的栈</h3>
+<h3 id="包含-min-函数的栈">包含 Min 函数的栈</h3>
 <blockquote>
 <p>问题</p>
 </blockquote>
-<p>栈支持 \((1)\) 入栈和出栈, 但不支持查询最小值</p>
+<p>栈支持 \(O(1)\) 入栈和出栈, 但不支持查询最小值</p>
 <blockquote>
 <p>想法</p>
 </blockquote>
 <ul>
 <li>直接：维护一个小顶堆 \(O(logN)\)</li>
-<li>启示：用一个变量维护最小值，但如果最小值出栈后就不知道了 -&gt; 维护一个栈,来保存每时刻最小值</li>
+<li>启示：用一个变量维护最小值，但如果最小值出栈后就不知道了 \( \to \) 维护一个栈,来保存每时刻最小值</li>
 </ul>
 <blockquote>
 <p>做法</p>
@@ -176,17 +176,17 @@ GetMin 时，输出 B 的栈顶</li>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="排序">排序</h2>
-<h3 id="1-第-k-大">1. 第 K 大</h3>
+<h3 id="第-k-大">第 K 大</h3>
 <blockquote>
 <p>问题</p>
 </blockquote>
-<p>找出第 K 大的数 / 找出倒数第 K 大的 （同一类问题）</p>
+<p> 找出第 K 大的数 / 找出倒数第 K 大的 （同一类问题）</p>
 <blockquote>
 <p>想法</p>
 </blockquote>
 <ul>
 <li>使用快排的思想 \(O(nlogn)\)</li>
-<li>快排一轮 -&gt; 基准点左边比他大，右边比他小。 或者相反。</li>
+<li>快排一轮 \( \to \) 基准点左边比他大，右边比他小。 或者相反。</li>
 </ul>
 <blockquote>
 <p>实现</p>
@@ -194,7 +194,7 @@ GetMin 时，输出 B 的栈顶</li>
 <ol>
 <li>选取基准，将大的放到基准左边，小的放到右边</li>
 <li>统计 大于基准的数的个数 cnt<br>
-若 \(k&lt;=cnt\),说明答案在左边，递归<br>
+若 \(k \leq cnt\),说明答案在左边，递归<br>
 若 \(k&gt;cnt\),说明答案在右边，递归</li>
 </ol>
 <blockquote>

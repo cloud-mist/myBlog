@@ -14,7 +14,7 @@
       <pubDate>Thu, 22 Jul 2021 14:54:11 +0800</pubDate>
       
       <guid>https://shawncheung.com/programming/acg-0x04/</guid>
-      <description>一、整数二分 Explain 将模板分为二种情况,循环以l=r结束 看第一段，若\(a[mid]\geq{x}\),因为是单增序列，推出 mid 后面的数会更大，所以</description>
+      <description>一、整数二分 Demo Explain 将模板分为二种情况,循环以l=r结束 看第一段，若\(a[mid]\geq{x}\),因为是单增序列，推出 mid 后面的数会更大，所</description>
     </item>
     
   </channel>
