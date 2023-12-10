@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sun, 10 Dec 2023 17:47:43 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sun, 10 Dec 2023 19:48:32 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://shawncheung.com/rss.xml" />
         
@@ -1285,101 +1285,6 @@ GetMin 时，输出 B 的栈顶&lt;/li&gt;
                                 
                                 
                                     <category domain="https://shawncheung.com/tags/%E7%B4%A0%E6%95%B0/">素数</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>2021 回味与小唠</title>
-                <link>https://shawncheung.com/life/talk-end2021/</link>
-                <guid isPermaLink="true">https://shawncheung.com/life/talk-end2021/</guid>
-                <pubDate>Fri, 31 Dec 2021 22:38:17 &#43;0800</pubDate>
-                
-                    <author>i@mail.shawncheung.com (忆の風)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;p&gt;突然间，已经记不清 7 月之前我做了什么，我在哪里。噢，只不过是上了一些乱七八糟的课罢了，应付着那些无聊的考试。
-时间的流逝真的是飞快，仿佛我还停留在 2008 年的奥运之年，春晚定时收看，炮定时放。过年时还要跋山涉水，物质也并不富足相比此时，但当时是如此的快乐，也许那时只属于孩子的快乐吧。扯的有点远，那么今年做了什么东西呢。&lt;/p&gt;
-&lt;h3 id=&#34;娱乐方面&#34;&gt;娱乐方面&lt;/h3&gt;
-&lt;p&gt;  真的是看了不少很好的电影，还有很值得一玩的游戏。&lt;/p&gt;
-&lt;h4 id=&#34;films&#34;&gt;Films&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Jai Bhim&lt;/li&gt;
-&lt;li&gt;CODA&lt;/li&gt;
-&lt;li&gt;Finch&lt;/li&gt;
-&lt;li&gt;Free Guy&lt;/li&gt;
-&lt;li&gt;沙丘&lt;/li&gt;
-&lt;li&gt;扬名立万&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;games&#34;&gt;Games&lt;/h4&gt;
-&lt;p&gt;  银河恶魔城游戏，很有挑战性，但这三个可谓是第九艺术。美术和音乐真的很棒。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Ori 与黑暗森林(15h)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;center&gt;
-&lt;img src=&#34;https://shawncheung.com/images/End2021/ori-forest.jpg&#34; width=80% /&gt;
-&lt;/center&gt;
-&lt;ul&gt;
-&lt;li&gt;Ori 与萤火意志(15h)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;center&gt;
-&lt;img src=&#34;https://shawncheung.com/images/End2021/ori-wisp.jpg&#34; width=80% /&gt;
-&lt;/center&gt;
-&lt;ul&gt;
-&lt;li&gt;Hollow Knight(55h)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;center&gt;
-&lt;img src=&#34;https://shawncheung.com/images/End2021/hollowknight.jpeg&#34; width=80% /&gt;
-&lt;/center&gt;
-&lt;h4 id=&#34;music&#34;&gt;Music&lt;/h4&gt;
-&lt;p&gt;  还是听着梁博的，朴树的，李健的。多了 YOASOBI. 指弹只看了 MISKO 的三首合作，真的很棒。吉他水平越来越差，也许这蒙尘的吉他再放就要放坏了吧。&lt;/p&gt;
-&lt;h3 id=&#34;一些产品&#34;&gt;一些产品&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;IQUNIX OG80&lt;/li&gt;
-&lt;li&gt;XBOX 手柄&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;学习方面&#34;&gt;学习方面&lt;/h3&gt;
-&lt;p&gt;  学了很久的算法，还是不见长进，ccf 继续 170,，真的很菜。要继续看密码学了，搞一下研究吧。还在学 Haskell,欣赏一下 Pure 函数式语言的魅力。Golang 还算学的还行吧，但是实际应用的小项目还没有实践过,明年 2 月左右就可以加入泛型，还挺激动的。还想使用一下&lt;code&gt;FreeBSD&lt;/code&gt;,体验个小半年试试。论文啊，还在催。&lt;/p&gt;
-&lt;h3 id=&#34;总结&#34;&gt;总结&lt;/h3&gt;
-&lt;p&gt;  总之，学习方面不尽如人意，无论是基础的，还是科研方面的。加油吧。混沌着迷茫着，我坠入的世界的深渊，但不知该飘向何方。&lt;br&gt;
-  哪有所谓的自由之处，哪里都是江湖。&lt;/p&gt;
-&lt;div align=&#34;right&#34;&gt; 忆の风 &lt;/div&gt;
-&lt;div align=&#34;right&#34;&gt;2021.12.31 &lt;/div&gt;
-</description>
-                
-                
-                
-                    
-                    
-                    
-                        
-                        
-                        
-                            
-                                <category domain="https://shawncheung.com/life/">life</category>
-                            
-                        
-                    
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://shawncheung.com/tags/%E6%80%BB%E7%BB%93/">总结</category>
-                                
-                            
-                                
-                                
-                                
-                                    <category domain="https://shawncheung.com/tags/%E9%97%B2%E8%B0%88/">闲谈</category>
                                 
                             
                         
