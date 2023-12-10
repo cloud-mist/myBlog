@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">忆の風</title>
     <subtitle type="html">Shawn&#39;s blog</subtitle>
-    <updated>2023-02-26T21:56:07&#43;08:00</updated>
+    <updated>2023-12-10T17:47:43&#43;08:00</updated>
     <id>https://shawncheung.com/</id>
     <link rel="alternate" type="text/html" href="https://shawncheung.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://shawncheung.com/atom.xml" />
@@ -15,12 +15,12 @@
                 <email>i@mail.shawncheung.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
-    <generator uri="https://gohugo.io/" version="0.110.0">Hugo</generator>
+    <generator uri="https://gohugo.io/" version="0.120.1">Hugo</generator>
         <entry>
             <title type="text">Alg | DFS</title>
             <link rel="alternate" type="text/html" href="https://shawncheung.com/programming/alg-search-dfs/" />
             <id>https://shawncheung.com/programming/alg-search-dfs/</id>
-            <updated>2022-10-17T12:21:59&#43;08:00</updated>
+            <updated>2023-12-10T17:37:28&#43;08:00</updated>
             <published>2022-10-16T21:56:38&#43;08:00</published>
             <author>
                     <name>忆の風</name>
@@ -253,67 +253,10 @@
         </entry>
     
         <entry>
-            <title type="text">Linux | gawk</title>
-            <link rel="alternate" type="text/html" href="https://shawncheung.com/programming/linux-gawk/" />
-            <id>https://shawncheung.com/programming/linux-gawk/</id>
-            <updated>2022-10-06T17:22:24&#43;08:00</updated>
-            <published>2022-10-06T16:40:25&#43;08:00</published>
-            <author>
-                    <name>忆の風</name>
-                    <uri>https://shawncheung.com/</uri>
-                    <email>i@mail.shawncheung.com</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">linux中gawk的使用</summary>
-            
-                <content type="html"></content>
-            
-            
-            
-                
-                
-                
-                    
-                    
-                    
-                        
-                            <category scheme="https://shawncheung.com/programming/" term="programming" label="programming" />
-                        
-                    
-                
-            
-            
-            
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://shawncheung.com/tags/linux/" term="linux" label="linux" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://shawncheung.com/tags/awk/" term="awk" label="awk" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://shawncheung.com/tags/gawk/" term="gawk" label="gawk" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        <entry>
             <title type="text">Linux | sed</title>
             <link rel="alternate" type="text/html" href="https://shawncheung.com/programming/linux-sed/" />
             <id>https://shawncheung.com/programming/linux-sed/</id>
-            <updated>2022-10-06T16:39:27&#43;08:00</updated>
+            <updated>2023-12-10T17:41:53&#43;08:00</updated>
             <published>2022-10-06T16:22:22&#43;08:00</published>
             <author>
                     <name>忆の風</name>
@@ -410,7 +353,7 @@ The quick green fox jumps over the lazy cat.
             <title type="text">快速幂 &amp; 欧拉函数</title>
             <link rel="alternate" type="text/html" href="https://shawncheung.com/programming/alg-math-euler--qmi/" />
             <id>https://shawncheung.com/programming/alg-math-euler--qmi/</id>
-            <updated>2022-09-05T21:46:31&#43;08:00</updated>
+            <updated>2023-12-10T17:37:28&#43;08:00</updated>
             <published>2022-09-05T20:56:42&#43;08:00</published>
             <author>
                     <name>忆の風</name>
@@ -627,7 +570,7 @@ $$&lt;/p&gt;
             <title type="text">Alg | 约数</title>
             <link rel="alternate" type="text/html" href="https://shawncheung.com/programming/alg-math-divisor/" />
             <id>https://shawncheung.com/programming/alg-math-divisor/</id>
-            <updated>2022-09-03T21:53:44&#43;08:00</updated>
+            <updated>2023-12-10T17:37:28&#43;08:00</updated>
             <published>2022-07-02T14:00:06&#43;08:00</published>
             <author>
                     <name>忆の風</name>
@@ -786,7 +729,7 @@ $$&lt;/p&gt;
             <title type="text">Alg | 位运算</title>
             <link rel="alternate" type="text/html" href="https://shawncheung.com/programming/alg-bitop/" />
             <id>https://shawncheung.com/programming/alg-bitop/</id>
-            <updated>2022-09-03T21:54:04&#43;08:00</updated>
+            <updated>2023-12-10T17:37:28&#43;08:00</updated>
             <published>2022-04-15T22:36:02&#43;08:00</published>
             <author>
                     <name>忆の風</name>
@@ -879,7 +822,7 @@ $$a \bigoplus 0 = a \qquad (2)$$&lt;/p&gt;
             <title type="text">Alg | 栈/队列/排序</title>
             <link rel="alternate" type="text/html" href="https://shawncheung.com/programming/alg-struct-stkque/" />
             <id>https://shawncheung.com/programming/alg-struct-stkque/</id>
-            <updated>2022-09-03T21:54:34&#43;08:00</updated>
+            <updated>2023-12-10T17:37:28&#43;08:00</updated>
             <published>2022-04-11T21:08:43&#43;08:00</published>
             <author>
                     <name>忆の風</name>
@@ -957,7 +900,7 @@ GetMin 时，输出 B 的栈顶&lt;/li&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;len&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;stk2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nx&#34;&gt;stk2&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;append&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;stk2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;else&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nx&#34;&gt;tmp&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:=&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;stk2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;len&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;stk2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nx&#34;&gt;tmp&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;stk2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;len&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;stk2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nx&#34;&gt;stk2&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;append&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;stk2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;tmp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
@@ -975,7 +918,7 @@ GetMin 时，输出 B 的栈顶&lt;/li&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;stk2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;len&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;stk2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;func&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;func&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;y&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
@@ -1136,7 +1079,7 @@ GetMin 时，输出 B 的栈顶&lt;/li&gt;
             <title type="text">Alg | 质数</title>
             <link rel="alternate" type="text/html" href="https://shawncheung.com/programming/alg-math-prime/" />
             <id>https://shawncheung.com/programming/alg-math-prime/</id>
-            <updated>2022-09-04T21:44:33&#43;08:00</updated>
+            <updated>2023-12-10T17:37:28&#43;08:00</updated>
             <published>2022-03-04T17:03:53&#43;08:00</published>
             <author>
                     <name>忆の風</name>
@@ -1362,7 +1305,7 @@ GetMin 时，输出 B 的栈顶&lt;/li&gt;
             <title type="text">2021 回味与小唠</title>
             <link rel="alternate" type="text/html" href="https://shawncheung.com/life/talk-end2021/" />
             <id>https://shawncheung.com/life/talk-end2021/</id>
-            <updated>2023-02-12T22:55:37&#43;08:00</updated>
+            <updated>2023-12-10T17:37:29&#43;08:00</updated>
             <published>2021-12-31T22:38:17&#43;08:00</published>
             <author>
                     <name>忆の風</name>
@@ -1460,7 +1403,7 @@ GetMin 时，输出 B 的栈顶&lt;/li&gt;
             <title type="text">Golang | 算法题的输入输出</title>
             <link rel="alternate" type="text/html" href="https://shawncheung.com/programming/go-alg-io/" />
             <id>https://shawncheung.com/programming/go-alg-io/</id>
-            <updated>2023-02-26T21:16:37&#43;08:00</updated>
+            <updated>2023-12-10T17:37:29&#43;08:00</updated>
             <published>2021-10-22T13:06:18&#43;08:00</published>
             <author>
                     <name>忆の風</name>
@@ -1801,7 +1744,7 @@ GetMin 时，输出 B 的栈顶&lt;/li&gt;
             <title type="text">Acg | 0x03</title>
             <link rel="alternate" type="text/html" href="https://shawncheung.com/programming/acg-0x03/" />
             <id>https://shawncheung.com/programming/acg-0x03/</id>
-            <updated>2023-02-26T21:56:04&#43;08:00</updated>
+            <updated>2023-12-10T17:37:28&#43;08:00</updated>
             <published>2021-07-23T18:32:02&#43;08:00</published>
             <author>
                     <name>忆の風</name>
@@ -2181,7 +2124,7 @@ $$
             <title type="text">Acg | 0x04</title>
             <link rel="alternate" type="text/html" href="https://shawncheung.com/programming/acg-0x04/" />
             <id>https://shawncheung.com/programming/acg-0x04/</id>
-            <updated>2022-06-14T14:17:24&#43;08:00</updated>
+            <updated>2023-12-10T17:37:28&#43;08:00</updated>
             <published>2021-07-22T14:54:11&#43;08:00</published>
             <author>
                     <name>忆の風</name>
@@ -2577,7 +2520,7 @@ $$
             <title type="text">Cube | PLL</title>
             <link rel="alternate" type="text/html" href="https://shawncheung.com/life/hb-cube-pll/" />
             <id>https://shawncheung.com/life/hb-cube-pll/</id>
-            <updated>2022-05-31T17:15:48&#43;08:00</updated>
+            <updated>2023-12-10T17:37:29&#43;08:00</updated>
             <published>2021-06-24T19:50:57&#43;08:00</published>
             <author>
                     <name>忆の風</name>
@@ -2841,7 +2784,7 @@ $$
             <title type="text">Blog搭建的那点小事</title>
             <link rel="alternate" type="text/html" href="https://shawncheung.com/programming/blog-hugoanddiary/" />
             <id>https://shawncheung.com/programming/blog-hugoanddiary/</id>
-            <updated>2022-05-15T21:56:09&#43;08:00</updated>
+            <updated>2023-12-10T17:37:28&#43;08:00</updated>
             <published>2021-05-04T21:00:00&#43;00:00</published>
             <author>
                     <name>忆の風</name>
@@ -3010,7 +2953,7 @@ Okay,平台有了，那还得有个主题不是，找啊找找啊找，发现了
             <title type="text">2021年的第一次开箱-kindle</title>
             <link rel="alternate" type="text/html" href="https://shawncheung.com/life/ob-kindle/" />
             <id>https://shawncheung.com/life/ob-kindle/</id>
-            <updated>2023-02-17T13:40:28&#43;08:00</updated>
+            <updated>2023-12-10T17:37:29&#43;08:00</updated>
             <published>2021-01-01T14:30:58&#43;00:00</published>
             <author>
                     <name>忆の風</name>
