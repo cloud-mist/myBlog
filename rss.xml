@@ -10,7 +10,7 @@
         <title>忆の風</title>
         <link>https://shawncheung.com/</link>
         <description>Shawn&#39;s blog</description>
-        <generator>Hugo 0.120.1 https://gohugo.io/</generator>
+        <generator>Hugo 0.124.1 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
         
@@ -23,10 +23,63 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sun, 10 Dec 2023 19:48:32 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sat, 06 Apr 2024 12:01:21 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://shawncheung.com/rss.xml" />
         
+        
+            <item>
+                <title>日 记</title>
+                <link>https://shawncheung.com/life/diary-2024/</link>
+                <guid isPermaLink="true">https://shawncheung.com/life/diary-2024/</guid>
+                <pubDate>Sun, 10 Mar 2024 00:02:17 &#43;0800</pubDate>
+                
+                    <author>i@mail.shawncheung.com (忆の風)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;h2 id=&#34;mar-10&#34;&gt;Mar 10&lt;/h2&gt;
+&lt;p&gt;突然想写点什么，但是下笔又不知道要说什么，这大概也是闲的蛋疼的一种吧。&lt;/p&gt;
+&lt;p&gt;我目前觉得活着，真的是一件枯燥而又艰辛的事情，没有找寻到一点意义，可能活着本身就不需要意义吧。&lt;/p&gt;
+&lt;p&gt;枯燥，想增添那么一丝乐趣，那就搞点爱好。但是无论搞了多少种爱好/兴趣，等初始的喜悦燃烧殆尽，到最后就变成为了消磨时间。
+在这座围城中，在这茫茫人海中，还真就只能找到少之又少的同样的喜欢某种东西的人。又或者找到了，但是不合。
+所以孤独，的确是一个人的常态，少了那份分享有趣东西的快乐。&lt;/p&gt;
+&lt;p&gt;艰辛，忙活一辈子，化成一粒尘埃。常想为了什么，来这世上走一遭。从出生到死亡，“我”到底有什么意义?
+为的是能吃很多好吃的？为的是能有很多好玩的？为的是未来能有一个幸福的生活？这些东西又有什么用呢。
+或许什么都不为，纯粹的一个经历过程，该怎样怎样，好点又如何，坏点又何如；吃的不好，住的破烂，又如何。&lt;/p&gt;
+&lt;p&gt;想起了余华老师笔中的福贵大爷，是如此的坚韧乐观，为了活着经历了重重苦难，奋斗了一生。我是当真佩服的。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;apr-1&#34;&gt;Apr 1&lt;/h2&gt;
+&lt;p&gt;最近翻了翻老照片，一些遗忘的记忆涌出心头。真是神奇，清晰记得的事情也就一年内，其他度过的年头已然模糊不清，可照片这东西，它停留在那个时空，如哆啦A梦的门，一下把你拉进去，感受着那时那刻那地的情感。&lt;/p&gt;
+&lt;p&gt;遗憾、错过、开心、不安，有时候还是想改写遗憾的啊。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;apr-5&#34;&gt;Apr 5&lt;/h2&gt;
+&lt;p&gt;别把自己看的太重，但是也把自己不当回事。不如意之事总是很多，这很正常，只是需要一点点时间来接受。学会接受，学会放下，顺其自然。讲真的，人真的好难懂，比微积分还难解。&lt;/p&gt;
+&lt;p&gt;生活啊，还是要继续，只是有了那么点不一样。少了点什么，又多了点什么。&lt;/p&gt;
+&lt;iframe frameborder=&#34;no&#34; border=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; width=330 height=86 src=&#34;https://shawncheung.com//music.163.com/outchain/player?type=2&amp;id=27646203&amp;auto=0&amp;height=66&#34;&gt;&lt;/iframe&gt;
+</description>
+                
+                
+                
+                    
+                    
+                    
+                        
+                        
+                        
+                            
+                                <category domain="https://shawncheung.com/life/">life</category>
+                            
+                        
+                    
+                
+                
+                
+                    
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Alg | DFS</title>
@@ -253,7 +306,7 @@
                                 
                                 
                                 
-                                    <category domain="https://shawncheung.com/tags/dfs/">dfs</category>
+                                    <category domain="https://shawncheung.com/tags/dfs/">Dfs</category>
                                 
                             
                         
@@ -341,13 +394,13 @@ The quick green fox jumps over the lazy cat.
                                 
                                 
                                 
-                                    <category domain="https://shawncheung.com/tags/sed/">sed</category>
+                                    <category domain="https://shawncheung.com/tags/sed/">Sed</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://shawncheung.com/tags/linux/">linux</category>
+                                    <category domain="https://shawncheung.com/tags/linux/">Linux</category>
                                 
                             
                         
@@ -801,7 +854,7 @@ $$a \bigoplus 0 = a \qquad (2)$$&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://shawncheung.com/tags/bit/">bit</category>
+                                    <category domain="https://shawncheung.com/tags/bit/">Bit</category>
                                 
                             
                                 
@@ -1604,7 +1657,7 @@ GetMin 时，输出 B 的栈顶&lt;/li&gt;
                                 
                                 
                                 
-                                    <category domain="https://shawncheung.com/tags/go/">go</category>
+                                    <category domain="https://shawncheung.com/tags/go/">Go</category>
                                 
                             
                                 
@@ -1622,7 +1675,7 @@ GetMin 时，输出 B 的栈顶&lt;/li&gt;
                                 
                                 
                                 
-                                    <category domain="https://shawncheung.com/tags/bufio/">bufio</category>
+                                    <category domain="https://shawncheung.com/tags/bufio/">Bufio</category>
                                 
                             
                         
@@ -2641,13 +2694,13 @@ $$
                                 
                                 
                                 
-                                    <category domain="https://shawncheung.com/tags/pll/">pll</category>
+                                    <category domain="https://shawncheung.com/tags/pll/">Pll</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://shawncheung.com/tags/cfop/">cfop</category>
+                                    <category domain="https://shawncheung.com/tags/cfop/">Cfop</category>
                                 
                             
                                 
@@ -2807,19 +2860,19 @@ Okay,平台有了，那还得有个主题不是，找啊找找啊找，发现了
                                 
                                 
                                 
-                                    <category domain="https://shawncheung.com/tags/theme/">theme</category>
+                                    <category domain="https://shawncheung.com/tags/theme/">Theme</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://shawncheung.com/tags/hugo/">hugo</category>
+                                    <category domain="https://shawncheung.com/tags/hugo/">Hugo</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://shawncheung.com/tags/blog/">blog</category>
+                                    <category domain="https://shawncheung.com/tags/blog/">Blog</category>
                                 
                             
                         
@@ -2903,13 +2956,13 @@ Fig2. 全家福
                                 
                                 
                                 
-                                    <category domain="https://shawncheung.com/tags/kindle/">kindle</category>
+                                    <category domain="https://shawncheung.com/tags/kindle/">Kindle</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://shawncheung.com/tags/paperwhite4/">paperwhite4</category>
+                                    <category domain="https://shawncheung.com/tags/paperwhite4/">Paperwhite4</category>
                                 
                             
                         

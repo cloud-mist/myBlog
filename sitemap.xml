@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://shawncheung.com/life/</loc>
+    <lastmod>2024-04-06T12:00:36+08:00</lastmod>
+  </url><url>
+    <loc>https://shawncheung.com/life/diary-2024/</loc>
+    <lastmod>2024-04-06T12:00:36+08:00</lastmod>
+  </url><url>
+    <loc>https://shawncheung.com/</loc>
+    <lastmod>2024-04-06T12:00:36+08:00</lastmod>
+  </url><url>
     <loc>https://shawncheung.com/programming/alg-search-dfs/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
@@ -12,9 +21,6 @@
     <lastmod>2023-12-10T17:41:53+08:00</lastmod>
   </url><url>
     <loc>https://shawncheung.com/tags/</loc>
-    <lastmod>2023-12-10T17:41:53+08:00</lastmod>
-  </url><url>
-    <loc>https://shawncheung.com/</loc>
     <lastmod>2023-12-10T17:41:53+08:00</lastmod>
   </url><url>
     <loc>https://shawncheung.com/tags/linux/</loc>
@@ -108,9 +114,6 @@
     <lastmod>2023-12-10T17:37:29+08:00</lastmod>
   </url><url>
     <loc>https://shawncheung.com/life/hb-cube-pll/</loc>
-    <lastmod>2023-12-10T17:37:29+08:00</lastmod>
-  </url><url>
-    <loc>https://shawncheung.com/life/</loc>
     <lastmod>2023-12-10T17:37:29+08:00</lastmod>
   </url><url>
     <loc>https://shawncheung.com/tags/pll/</loc>
