@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://shawncheung.com/life/</loc>
+    <lastmod>2025-12-29T21:44:04+08:00</lastmod>
+  </url><url>
+    <loc>https://shawncheung.com/tags/</loc>
+    <lastmod>2025-12-29T21:44:04+08:00</lastmod>
+  </url><url>
+    <loc>https://shawncheung.com/life/anime-qzlr/</loc>
+    <lastmod>2025-12-29T21:44:04+08:00</lastmod>
+  </url><url>
+    <loc>https://shawncheung.com/tags/%E5%85%A8%E8%81%8C%E7%8C%8E%E4%BA%BA/</loc>
+    <lastmod>2025-12-29T21:44:04+08:00</lastmod>
+  </url><url>
+    <loc>https://shawncheung.com/</loc>
+    <lastmod>2025-12-29T21:44:04+08:00</lastmod>
+  </url><url>
     <loc>https://shawncheung.com/tags/2024/</loc>
     <lastmod>2024-09-07T20:52:01+08:00</lastmod>
   </url><url>
-    <loc>https://shawncheung.com/life/</loc>
-    <lastmod>2024-09-07T20:52:01+08:00</lastmod>
-  </url><url>
-    <loc>https://shawncheung.com/tags/</loc>
-    <lastmod>2024-09-07T20:52:01+08:00</lastmod>
-  </url><url>
     <loc>https://shawncheung.com/life/diary-2024/</loc>
-    <lastmod>2024-09-07T20:52:01+08:00</lastmod>
-  </url><url>
-    <loc>https://shawncheung.com/</loc>
     <lastmod>2024-09-07T20:52:01+08:00</lastmod>
   </url><url>
     <loc>https://shawncheung.com/programming/alg-search-dfs/</loc>
