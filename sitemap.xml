@@ -2,163 +2,163 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:43335/life/</loc>
+    <loc>https://shawncheung.com/life/</loc>
     <lastmod>2025-12-29T21:44:04+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/</loc>
+    <loc>https://shawncheung.com/tags/</loc>
     <lastmod>2025-12-29T21:44:04+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/life/anime-qzlr/</loc>
+    <loc>https://shawncheung.com/life/anime-qzlr/</loc>
     <lastmod>2025-12-29T21:44:04+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/%E5%85%A8%E8%81%8C%E7%8C%8E%E4%BA%BA/</loc>
+    <loc>https://shawncheung.com/tags/%E5%85%A8%E8%81%8C%E7%8C%8E%E4%BA%BA/</loc>
     <lastmod>2025-12-29T21:44:04+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/</loc>
+    <loc>https://shawncheung.com/</loc>
     <lastmod>2025-12-29T21:44:04+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/2024/</loc>
+    <loc>https://shawncheung.com/tags/2024/</loc>
     <lastmod>2024-09-07T20:52:01+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/life/diary-2024/</loc>
+    <loc>https://shawncheung.com/life/diary-2024/</loc>
     <lastmod>2024-09-07T20:52:01+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/programming/alg-search-dfs/</loc>
+    <loc>https://shawncheung.com/programming/alg-search-dfs/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/dfs/</loc>
+    <loc>https://shawncheung.com/tags/dfs/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/programming/</loc>
+    <loc>https://shawncheung.com/programming/</loc>
     <lastmod>2023-12-10T17:41:53+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/linux/</loc>
+    <loc>https://shawncheung.com/tags/linux/</loc>
     <lastmod>2023-12-10T17:41:53+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/programming/linux-sed/</loc>
+    <loc>https://shawncheung.com/programming/linux-sed/</loc>
     <lastmod>2023-12-10T17:41:53+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/sed/</loc>
+    <loc>https://shawncheung.com/tags/sed/</loc>
     <lastmod>2023-12-10T17:41:53+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/%E5%BF%AB%E9%80%9F%E5%B9%82/</loc>
+    <loc>https://shawncheung.com/tags/%E5%BF%AB%E9%80%9F%E5%B9%82/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/programming/alg-math-euler--qmi/</loc>
+    <loc>https://shawncheung.com/programming/alg-math-euler--qmi/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/%E6%AC%A7%E6%8B%89%E5%87%BD%E6%95%B0/</loc>
+    <loc>https://shawncheung.com/tags/%E6%AC%A7%E6%8B%89%E5%87%BD%E6%95%B0/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/programming/alg-math-divisor/</loc>
+    <loc>https://shawncheung.com/programming/alg-math-divisor/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/%E7%BA%A6%E6%95%B0/</loc>
+    <loc>https://shawncheung.com/tags/%E7%BA%A6%E6%95%B0/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/programming/alg-bitop/</loc>
+    <loc>https://shawncheung.com/programming/alg-bitop/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/bit/</loc>
+    <loc>https://shawncheung.com/tags/bit/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/</loc>
+    <loc>https://shawncheung.com/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/programming/alg-struct-stkque/</loc>
+    <loc>https://shawncheung.com/programming/alg-struct-stkque/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/%E9%98%9F%E5%88%97/</loc>
+    <loc>https://shawncheung.com/tags/%E9%98%9F%E5%88%97/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/%E6%8E%92%E5%BA%8F/</loc>
+    <loc>https://shawncheung.com/tags/%E6%8E%92%E5%BA%8F/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/%E6%A0%88/</loc>
+    <loc>https://shawncheung.com/tags/%E6%A0%88/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/programming/alg-math-prime/</loc>
+    <loc>https://shawncheung.com/programming/alg-math-prime/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/%E7%B4%A0%E6%95%B0/</loc>
+    <loc>https://shawncheung.com/tags/%E7%B4%A0%E6%95%B0/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/%E8%B4%A8%E6%95%B0/</loc>
+    <loc>https://shawncheung.com/tags/%E8%B4%A8%E6%95%B0/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/bufio/</loc>
+    <loc>https://shawncheung.com/tags/bufio/</loc>
     <lastmod>2023-12-10T17:37:29+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/go/</loc>
+    <loc>https://shawncheung.com/tags/go/</loc>
     <lastmod>2023-12-10T17:37:29+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/programming/go-alg-io/</loc>
+    <loc>https://shawncheung.com/programming/go-alg-io/</loc>
     <lastmod>2023-12-10T17:37:29+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/io/</loc>
+    <loc>https://shawncheung.com/tags/io/</loc>
     <lastmod>2023-12-10T17:37:29+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA/</loc>
+    <loc>https://shawncheung.com/tags/%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA/</loc>
     <lastmod>2023-12-10T17:37:29+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://shawncheung.com/tags/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2023-12-10T17:37:29+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/programming/acg-0x03/</loc>
+    <loc>https://shawncheung.com/programming/acg-0x03/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/%E5%B7%AE%E5%88%86/</loc>
+    <loc>https://shawncheung.com/tags/%E5%B7%AE%E5%88%86/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/%E5%89%8D%E7%BC%80%E5%92%8C/</loc>
+    <loc>https://shawncheung.com/tags/%E5%89%8D%E7%BC%80%E5%92%8C/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/programming/acg-0x04/</loc>
+    <loc>https://shawncheung.com/programming/acg-0x04/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/%E4%BA%8C%E5%88%86/</loc>
+    <loc>https://shawncheung.com/tags/%E4%BA%8C%E5%88%86/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/cfop/</loc>
+    <loc>https://shawncheung.com/tags/cfop/</loc>
     <lastmod>2023-12-10T17:37:29+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/life/hb-cube-pll/</loc>
+    <loc>https://shawncheung.com/life/hb-cube-pll/</loc>
     <lastmod>2023-12-10T17:37:29+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/pll/</loc>
+    <loc>https://shawncheung.com/tags/pll/</loc>
     <lastmod>2023-12-10T17:37:29+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/%E9%AD%94%E6%96%B9/</loc>
+    <loc>https://shawncheung.com/tags/%E9%AD%94%E6%96%B9/</loc>
     <lastmod>2023-12-10T17:37:29+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/blog/</loc>
+    <loc>https://shawncheung.com/tags/blog/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/programming/blog-hugoanddiary/</loc>
+    <loc>https://shawncheung.com/programming/blog-hugoanddiary/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/hugo/</loc>
+    <loc>https://shawncheung.com/tags/hugo/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/theme/</loc>
+    <loc>https://shawncheung.com/tags/theme/</loc>
     <lastmod>2023-12-10T17:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/life/ob-kindle/</loc>
+    <loc>https://shawncheung.com/life/ob-kindle/</loc>
     <lastmod>2023-12-10T17:37:29+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/kindle/</loc>
+    <loc>https://shawncheung.com/tags/kindle/</loc>
     <lastmod>2023-12-10T17:37:29+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/tags/paperwhite4/</loc>
+    <loc>https://shawncheung.com/tags/paperwhite4/</loc>
     <lastmod>2023-12-10T17:37:29+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/about/</loc>
+    <loc>https://shawncheung.com/about/</loc>
     <lastmod>2023-12-10T17:37:29+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/categories/</loc>
+    <loc>https://shawncheung.com/categories/</loc>
     <lastmod>2023-12-10T17:37:29+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:43335/search/</loc>
+    <loc>https://shawncheung.com/search/</loc>
     <lastmod>2023-12-10T17:37:29+08:00</lastmod>
   </url>
 </urlset>
