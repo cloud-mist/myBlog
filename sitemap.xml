@@ -2,20 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://shawncheung.com/tags/linux/</loc>
-    <lastmod>2026-01-10T13:40:10+08:00</lastmod>
-  </url><url>
     <loc>https://shawncheung.com/programming/</loc>
-    <lastmod>2026-01-10T13:40:10+08:00</lastmod>
+    <lastmod>2026-01-11T21:30:28+08:00</lastmod>
   </url><url>
     <loc>https://shawncheung.com/tags/</loc>
-    <lastmod>2026-01-10T13:40:10+08:00</lastmod>
+    <lastmod>2026-01-11T21:30:28+08:00</lastmod>
   </url><url>
-    <loc>https://shawncheung.com/programming/2026/progs-2026/</loc>
-    <lastmod>2026-01-10T13:40:10+08:00</lastmod>
+    <loc>https://shawncheung.com/tags/%E9%9C%9E%E9%B9%9C%E6%96%87%E6%A5%B7/</loc>
+    <lastmod>2026-01-11T21:25:22+08:00</lastmod>
   </url><url>
     <loc>https://shawncheung.com/</loc>
-    <lastmod>2026-01-10T13:40:10+08:00</lastmod>
+    <lastmod>2026-01-11T21:30:28+08:00</lastmod>
+  </url><url>
+    <loc>https://shawncheung.com/programming/2026/changefont/</loc>
+    <lastmod>2026-01-11T21:25:22+08:00</lastmod>
+  </url><url>
+    <loc>https://shawncheung.com/tags/%E5%AD%97%E4%BD%93/</loc>
+    <lastmod>2026-01-11T21:25:22+08:00</lastmod>
+  </url><url>
+    <loc>https://shawncheung.com/tags/linux/</loc>
+    <lastmod>2026-01-11T21:30:28+08:00</lastmod>
+  </url><url>
+    <loc>https://shawncheung.com/programming/2026/progs-2026/</loc>
+    <lastmod>2026-01-11T21:30:28+08:00</lastmod>
   </url><url>
     <loc>https://shawncheung.com/tags/2026/</loc>
     <lastmod>2026-01-06T19:04:14+08:00</lastmod>
