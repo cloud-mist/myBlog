@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>忆の風</title><link>https://shawncheung.com/</link><description>Shawn's blog</description><generator>Hugo 0.154.2 https://gohugo.io/</generator><language>zh-CN</language><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><lastBuildDate>Mon, 12 Jan 2026 13:08:26 +0800</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://shawncheung.com/rss.xml"/><item><title>
+<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>忆の風</title><link>https://shawncheung.com/</link><description>Shawn's blog</description><generator>Hugo 0.154.4 https://gohugo.io/</generator><language>zh-CN</language><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><lastBuildDate>Mon, 12 Jan 2026 20:24:44 +0800</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://shawncheung.com/rss.xml"/><item><title>
+从netify到cloudflare</title><link>https://shawncheung.com/programming/2026/gotocloudflare/</link><guid isPermaLink="true">https://shawncheung.com/programming/2026/gotocloudflare/</guid><pubDate>Mon, 12 Jan 2026 19:41:04 +0800</pubDate><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><description>
+&lt;p&gt;书接上回，换了字体，压缩到了1.8M，并使用免费cdn加速，访问有所改善，但还是比较慢。&lt;/p&gt;
+&lt;p&gt;我陷入了沉思，我陷入了怀疑。&lt;/p&gt;
+&lt;p&gt;&lt;tab&gt;&lt;strong&gt;我: 我是不是跑偏了？&lt;/strong&gt; &lt;strong&gt;现实: 是的，你是。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;自从建立了这个博客，github -&amp;gt; vercel -&amp;gt; netify -&amp;gt; cloudflare, 免费让我用的平台不多了。&lt;/p&gt;
+&lt;p&gt;从netify到cloudflare，就像从嵌合蚁王国回到了鲸鱼岛, 家才是温暖的港湾。前面是慢的飞起，现在是快的起飞。
+所以以前过的是什么苦日子。&lt;/p&gt;
+&lt;h3 id="顺便学习了图片压缩格式avif"&gt;&lt;a href="https://shawncheung.com/programming/2026/gotocloudflare/#顺便学习了图片压缩格式avif" class="anchor-link" aria-label="顺便学习了图片压缩格式avif"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"&gt;&lt;path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/&gt;&lt;/svg&gt;&lt;/a&gt;顺便学习了图片压缩格式avif&lt;/h3&gt;
+&lt;p&gt;顺便翻了一翻前面写的东西，发现有的博文加载图片还是比较慢, 又突然想到了以前看过一个别人的文章说是他要优化图片大小。那我问什么不优化一下呢。&lt;/p&gt;
+&lt;p&gt;avif这个格式是真的听都没听过,我已经out了吧。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;工具：imagemagick&lt;/li&gt;
+&lt;li&gt;目标：avif&lt;/li&gt;
+&lt;li&gt;命令：&lt;code&gt;magick xx.jpg -quality 50 xx.avif&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;效果：1.4M -&amp;gt; 100K&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;经过尝试，确实很不错, 原图和这个转换压缩过的图片，看着没多大差别, 但是占用真的小太多。&lt;/p&gt;</description><category domain="https://shawncheung.com/programming/">programming</category><category domain="https://shawncheung.com/tags/netify/">Netify</category><category domain="https://shawncheung.com/tags/cloudflare/">Cloudflare</category><category domain="https://shawncheung.com/tags/avif/">Avif</category></item><item><title>
 折腾博客字体</title><link>https://shawncheung.com/programming/2026/changefont/</link><guid isPermaLink="true">https://shawncheung.com/programming/2026/changefont/</guid><pubDate>Sun, 11 Jan 2026 20:30:56 +0800</pubDate><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><description>
 &lt;h3 id="前记"&gt;&lt;a href="https://shawncheung.com/programming/2026/changefont/#前记" class="anchor-link" aria-label="前记"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"&gt;&lt;path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/&gt;&lt;/svg&gt;&lt;/a&gt;前记&lt;/h3&gt;
 &lt;p&gt;今天什么都不想做，所以整理一下博客，虽然没有几篇文章😸。&lt;/p&gt;
@@ -2426,17 +2443,6 @@ Okay,平台有了，那还得有个主题不是，找啊找找啊找，发现了
 不过是纯粹的阅读体验罢了，多余的功能那才是多余吧。&lt;/br&gt;
 因此：AMD,YES!&lt;/p&gt;
 &lt;hr&gt;
-&lt;center&gt;
-&lt;!----&gt;
-&lt;!-- &lt;img src="https://shawncheung.com/images/kindle-pw4/1.avif" width=40% /&gt; --&gt;
-&lt;!-- &lt;center&gt;Fig1. 包装&lt;/center&gt; --&gt;
-&lt;!-- &lt;/br&gt; --&gt;
-&lt;!----&gt;
-&lt;!-- &lt;img src="https://shawncheung.com/images/kindle-pw4/2.avif" width=40% /&gt; --&gt;
-&lt;!-- &lt;center&gt; --&gt;
-&lt;!-- Fig2. 还是包装🤣 --&gt;
-&lt;!-- &lt;/center&gt; --&gt;
-&lt;!-- &lt;/br&gt; --&gt;
 &lt;img src="https://shawncheung.com/images/kindle-pw4/4.avif" width=70% /&gt;
 &lt;center&gt;
 Fig1. 本体
