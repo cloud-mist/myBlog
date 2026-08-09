@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://shawncheung.com/life/</loc>
+    <lastmod>2026-08-09T21:14:31+08:00</lastmod>
+  </url><url>
+    <loc>https://shawncheung.com/tags/</loc>
+    <lastmod>2026-08-09T21:14:31+08:00</lastmod>
+  </url><url>
+    <loc>https://shawncheung.com/life/huanqinghaihu/</loc>
+    <lastmod>2026-08-09T21:14:31+08:00</lastmod>
+  </url><url>
+    <loc>https://shawncheung.com/tags/%E9%AA%91%E8%A1%8C/</loc>
+    <lastmod>2026-08-09T21:14:31+08:00</lastmod>
+  </url><url>
+    <loc>https://shawncheung.com/</loc>
+    <lastmod>2026-08-09T21:14:31+08:00</lastmod>
+  </url><url>
     <loc>https://shawncheung.com/tags/go/</loc>
     <lastmod>2026-01-29T21:32:21+08:00</lastmod>
   </url><url>
@@ -10,12 +25,6 @@
   </url><url>
     <loc>https://shawncheung.com/programming/</loc>
     <lastmod>2026-01-29T21:35:08+08:00</lastmod>
-  </url><url>
-    <loc>https://shawncheung.com/tags/</loc>
-    <lastmod>2026-02-07T12:25:12+08:00</lastmod>
-  </url><url>
-    <loc>https://shawncheung.com/</loc>
-    <lastmod>2026-02-07T12:25:12+08:00</lastmod>
   </url><url>
     <loc>https://shawncheung.com/tags/shell/</loc>
     <lastmod>2026-01-23T22:05:50+08:00</lastmod>
@@ -51,9 +60,6 @@
     <lastmod>2026-01-12T12:45:24+08:00</lastmod>
   </url><url>
     <loc>https://shawncheung.com/tags/2026/</loc>
-    <lastmod>2026-02-07T12:25:12+08:00</lastmod>
-  </url><url>
-    <loc>https://shawncheung.com/life/</loc>
     <lastmod>2026-02-07T12:25:12+08:00</lastmod>
   </url><url>
     <loc>https://shawncheung.com/life/2026/diary-2026/</loc>
